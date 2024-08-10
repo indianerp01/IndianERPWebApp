@@ -1,4 +1,4 @@
-import { DropDownProp } from "@/app/types/type";
+import { DropDownProp } from "@/app/TS/types/type";
 import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
