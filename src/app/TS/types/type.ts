@@ -1,5 +1,6 @@
 export type DropDownProp = {
   title: string;
+  titleHREF: string;
   dropDownT1?: string;
   dropDownT2?: string;
   dropDownT3?: string;
