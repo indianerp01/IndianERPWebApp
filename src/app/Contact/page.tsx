@@ -1,7 +1,8 @@
-import React from "react";
-
+import Statistics from "../components/statsData/page"
 const page = () => {
-  return <div className="text-center text-4xl font-bold">Contact page</div>;
+  return <div>
+       <Statistics />
+  </div>;
 };
 
 export default page;
