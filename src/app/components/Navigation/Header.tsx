@@ -6,13 +6,13 @@ import HeaderLogo from "./HeaderLogo";
 const Header = () => {
   return (
     <>
-      <header className="mx-auto py-4 sticky top-0 backdrop-filter backdrop-blur-xl bg-opacity-80 z-20 ">
+      <header className="mx-auto py-4 sticky top-0 backdrop-filter backdrop-blur-xl bg-opacity-80 z-20 border-b">
         <div className="flex items-center justify-between text-sm container">
           <nav className="flex items-center justify-center">
             <span className="pr-5">
               <HeaderLogo />
             </span>
-            <ul className="flex items-center justify-center gap-4">
+            <ul className="flex items-center justify-center gap-6">
               <Link
                 href="/"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
