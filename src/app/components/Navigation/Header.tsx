@@ -6,13 +6,13 @@ import HeaderLogo from "./HeaderLogo";
 const Header = () => {
   return (
     <>
-      <header className="mx-auto py-4 sticky top-0 backdrop-filter backdrop-blur-xl bg-opacity-80 z-20 ">
+      <header className="mx-auto py-4 sticky top-0 backdrop-filter backdrop-blur-xl bg-opacity-80 z-20 border-b">
         <div className="flex items-center justify-between text-sm container">
           <nav className="flex items-center justify-center">
             <span className="pr-5">
               <HeaderLogo />
             </span>
-            <ul className="flex items-center justify-center gap-4">
+            <ul className="flex items-center justify-center gap-6">
               <Link
                 href="/"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
@@ -28,6 +28,7 @@ const Header = () => {
                 dropDownT5="Jwellery Software"
                 dropDownT6="Retail Software"
                 dropDownT7="Restaurant Billing"
+                titleHREF="/Retail"
                 href1="/Retail/Pharmacy"
                 href2="/Retail/SuperMarket"
                 href3="/Retail/Garment"
@@ -45,6 +46,7 @@ const Header = () => {
                 dropDownT5="Supplychain Mgt"
                 dropDownT6="Retail Software"
                 dropDownT7="Accounting Software"
+                titleHREF="/Distribution"
                 href1="/Distribution/Pharma"
                 href2="/Distribution/FMCG"
                 href3="/Distribution/WholesaleDistribution"
@@ -62,6 +64,7 @@ const Header = () => {
                 dropDownT5="Industry Software"
                 dropDownT6="Food Software"
                 dropDownT7="Beverage & Drinks Software"
+                titleHREF="/Manufacturing"
                 href1="/Manufacturing/ErpSolution"
                 href2="/Manufacturing/PharmaManufacture"
                 href3="/Manufacturing/AutomobileIndustry"
@@ -79,6 +82,7 @@ const Header = () => {
                 dropDownT5="Pharma ERP Software"
                 dropDownT6="Hotel ERP Software"
                 dropDownT7="Inventory Mgt"
+                titleHREF="/ERP"
                 href1="/ERP/RetailChain"
                 href2="/ERP/SupplyChain"
                 href3="/ERP/ERPSoft"
@@ -96,6 +100,7 @@ const Header = () => {
                 dropDownT5="SFA-Xpert App"
                 dropDownT6="GPS Tracking App"
                 dropDownT7="Ecommerce App"
+                titleHREF="/MobileApps"
                 href1="/MobileApps/E-Retail"
                 href2="/MobileApps/E-Order"
                 href3="/MobileApps/E-Owner"
@@ -113,6 +118,7 @@ const Header = () => {
                 dropDownT5="Invoice Software"
                 dropDownT6="E-Invoicing Software"
                 dropDownT7="Web-Apps Software"
+                titleHREF="/Others"
                 href1="/Others/ECOD"
                 href2="/Others/Payroll"
                 href3="/Others/Billing"
