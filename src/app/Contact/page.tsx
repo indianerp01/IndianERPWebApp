@@ -1,15 +1,15 @@
-<<<<<<< HEAD
-import Statistics from "../components/statsData/page"
+
+import ShowCase from "../components/Showcase/ShowCase";
+import Footer from "../components/Footer/Footer"
+import FAQSection from "../components/FAQSection/FAQSection";
+import ProductsFeatures from "../components/ProductsFeatures/ProductsFeatures"
 const page = () => {
   return <div>
-       <Statistics />
+    <ShowCase />
+    <ProductsFeatures />
+    <FAQSection />
+    <Footer />
   </div>;
-=======
-import React from "react";
 
-const page = () => {
-  return <div className="text-center text-4xl font-bold">Contact page</div>;
->>>>>>> main
-};
-
+}
 export default page;
