@@ -1,10 +1,9 @@
-import { BsBasket3Fill, BsFillMotherboardFill } from "react-icons/bs";
+import { BsBasket3Fill } from "react-icons/bs";
 import MiniTech from "./MiniTech";
 import { SiPayloadcms } from "react-icons/si";
-import { MdDevicesOther, MdFactory, MdMore, MdOutlineWeb } from "react-icons/md";
+import { MdFactory, MdMore, MdOutlineWeb } from "react-icons/md";
 import { RiFlowChart } from "react-icons/ri";
 import { IoIosApps } from "react-icons/io";
-import { CgWebsite } from "react-icons/cg";
 import { FaHotel } from "react-icons/fa6";
 
 const Landing = () => {
