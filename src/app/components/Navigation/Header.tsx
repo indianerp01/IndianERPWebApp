@@ -128,7 +128,7 @@ const Header = () => {
                 href7="/Others/WebApp"
               />
               <Link
-                href="/categories/onlineSoftwares"
+                href="/OnlineSoftware"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer  transition-all ease-linear duration-200"
               >
                 Online Software

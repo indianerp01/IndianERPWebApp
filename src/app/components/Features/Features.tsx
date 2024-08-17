@@ -100,7 +100,7 @@ const Features = () => {
 
   return (
     <section>
-      <div className="flex justify-center mt-10 text-5xl font-bold ">
+      <div className="flex justify-center mt-10 text-[42px] font-bold text-center ">
         Features at Glance
       </div>
       <div className="container px-5 py-12 mx-auto rounded-lg">

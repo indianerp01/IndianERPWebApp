@@ -1,43 +1,97 @@
-import { TbFileInvoice } from "react-icons/tb";
 import FeatureCards from "../ProductsFeatures/FeatureCards"
+import { TbFileInvoice } from "react-icons/tb";
+import { MdCurrencyRupee, MdOutlineAddShoppingCart } from "react-icons/md";
+import { HiComputerDesktop, HiPencilSquare } from "react-icons/hi2";
+import { FaBarcode, FaWhatsapp } from "react-icons/fa";
+import { RiShipLine } from "react-icons/ri";
+import { FiPhoneCall } from "react-icons/fi";
+import { LuBarChart4 } from "react-icons/lu";
+import { CiCreditCard1 } from "react-icons/ci";
+import { LiaFileInvoiceSolid } from "react-icons/lia";
+
+
+
 const ProductsFeatures = () => {
 
     const features = [
         {
             title: "100% Free E-invoicing",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
+                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP.",
             icon: <TbFileInvoice />,
         },
         {
-            title: "100% Free E-invoicing",
+            title: "Payment & Reconciliation",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
-            icon: <TbFileInvoice />,
+                "Simplify your payments & bill-by-bill reconciliation using Indian Pay at 0% service charges & 2% cashback for retailers.",
+            icon: < MdCurrencyRupee  />,
         },
         {
-            title: "100% Free E-invoicing",
+            title: "GST Billing & Return Filing",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
-            icon: <TbFileInvoice />,
+                "Create GST invoices, multiple e-way bills & directly upload files in Excel, JSON or CSV format in GST portal and file GST returns.",
+            icon: <HiPencilSquare />,
         },
         {
-            title: "100% Free E-invoicing",
+            title: "Barcode Management",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
-            icon: <TbFileInvoice />,
+                "Helps encode & centralize all products information in a barcode to quickly & accurately track products during billing.",
+            icon: <FaBarcode />,
         },
         {
-            title: "100% Free E-invoicing",
+            title: "Online Import Purchase",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
-            icon: <TbFileInvoice />,
+                "No need to feed manual Purchase. Import bill from any Excel or CSV format to save time with 100% accuracy.",
+            icon: <RiShipLine />,
         },
         {
-            title: "100% Free E-invoicing",
+            title: "Bills, O/s on Whatsapp",
             description:
-                "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP",
-            icon: <TbFileInvoice />,
+                "Send Invoices, Outstanding, Stock and Sale Analysis etc. & various reports to customers directly on WhatsApp through Software.",
+            icon: <FaWhatsapp />
+            ,
+        },
+        {
+            title: "Direct Calling",
+            description:
+                "To simplify the order taking process, connect your mobile with system by scanning QR code & place calls directly to customer for receiving orders.",
+            icon: <FiPhoneCall />
+            ,
+        },
+        {
+            title: "My Shop QR Code",
+            description:
+                "List & upload products, schemes, offers in QR code. Print & paste outside shop/ counter where customers can directly scan & place orders.",
+            icon: <MdOutlineAddShoppingCart />
+            ,
+        },
+        {
+            title: "eRetail Web Application",
+            description:
+                "Directly place online orders to distributors & check status of all orders, View nearby distributors, schemes inside Indian ERP.",
+            icon: <HiComputerDesktop />
+            ,
+        },
+        {
+            title: "Inventory Management",
+            description:
+                "Manage Focused, Dump and Near-Expiry stock level, set reorder points to replenish stock with Push Sale features.",
+            icon: <LuBarChart4 />
+            ,
+        },
+        {
+            title: "Live Credit Limit Management",
+            description:
+                "Set & Track the credit limit for customers to save huge losses. Get live notification during billing whenever limit is reached.",
+            icon: <CiCreditCard1 />
+            ,
+        },
+        {
+            title: "Purchase & Sale Claim",
+            description:
+                "Get timely reminders & keep a track of benefits of claim against the purchases which is being done with Claims & Statements feature.",
+            icon: <LiaFileInvoiceSolid />
+            ,
         },
     ];
 
@@ -45,11 +99,11 @@ const ProductsFeatures = () => {
         <section className="py-12 m:py-12 lg:py-16  ">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-xl mx-auto text-center xl:max-w-2xl">
-                    <h2 className="text-2xl font-bold leading-tight sm:text-4xl xl:text-5xl mb-6">
+                    <h2 className="text-[42px] font-bold text-center mb-3">
                         Find Better Solutions Build Better Products
                     </h2>
                 </div>
-                <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
+                <div className="grid max-w-4xl lg:max-w-5xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
                     {features.map((feature, index) => (
                         <FeatureCards key={index} feature={feature} />
                     ))}
