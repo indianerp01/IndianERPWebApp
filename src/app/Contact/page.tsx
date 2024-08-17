@@ -1,14 +1,16 @@
 
 import ShowCase from "../components/Showcase/ShowCase";
-import Footer from "../components/Footer/Footer"
 import FAQSection from "../components/FAQSection/FAQSection";
 import ProductsFeatures from "../components/ProductsFeatures/ProductsFeatures"
+import Feature from "../components/Features/Features"
+
 const page = () => {
   return <div>
     <ShowCase />
+    <Feature />
     <ProductsFeatures />
     <FAQSection />
-    <Footer />
+
   </div>;
 
 }

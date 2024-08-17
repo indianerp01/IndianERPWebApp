@@ -13,7 +13,7 @@ interface ShowcaseStatProps {
 
 const ShowcaseStat: React.FC<ShowcaseStatProps> = ({ icon, title, desc }) => {
   return (
-    <div className="border-r ">
+    <div className="border-r">
       <div className="flex items-center justify-center">{icon}</div>
       <div className="flex items-center justify-center flex-col p-3 gap-y-1">
         <div className="text-xl font-bold">{title}</div>
@@ -66,7 +66,7 @@ const ShowCase = () => {
         Empowering Businesses, Enabling Better India{" "}
         <div className="text-center">Through IT</div>
       </div>
-      <div className="border rounded-md m-auto">
+      <div className="border rounded-md m-10">
         <div className="grid grid-cols-5 mx-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 md: py-10">
           {showcaseStats.map((stat, index) => (
             <ShowcaseStat key={index} {...stat} />

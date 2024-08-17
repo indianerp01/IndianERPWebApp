@@ -1,9 +1,5 @@
 import React from 'react';
-
-interface FAQItemProps {
-  question: string;
-  answer: string;
-}
+import { FAQItemProps } from '@/app/TS/interfaces/interface';
 
 const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   return (
