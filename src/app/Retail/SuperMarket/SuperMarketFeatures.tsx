@@ -1,5 +1,5 @@
 import { TbDatabasePlus } from "react-icons/tb";
-import { BsDatabaseCheck } from "react-icons/bs";
+import { FaBarcode } from "react-icons/fa";
 import { BsHddRack } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 import { FaRegClock } from "react-icons/fa6";
@@ -31,11 +31,11 @@ const WhyUsItem: React.FC<ItemProps> = ({ icons, title }) => {
   );
 };
 
-const Features = () => {
+const SuperMarketFeatures = () => {
   const FeaturesItems: ItemProps[] = [
     {
-      icons: <BsDatabaseCheck className="w-32 mb-3 text-6xl" />,
-      title: "Stock Management",
+      icons: <FaBarcode className="w-32 mb-3 text-6xl" />,
+      title: "Barcode/ MRP wise Billing",
     },
     {
       icons: <BsHddRack className="w-32 mb-3 text-6xl" />,
@@ -100,8 +100,8 @@ const Features = () => {
 
   return (
     <section>
-      <div className="flex justify-center mt-10 text-[42px] font-bold text-center ">
-        Features at Glance
+      <div className="flex justify-center  text-[42px] font-bold text-center ">
+       Features at Glance
       </div>
       <div className="container px-5 py-12 mx-auto rounded-lg">
         <div className="flex flex-wrap text-center justify-center">
@@ -114,4 +114,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default SuperMarketFeatures;

@@ -4,7 +4,7 @@ import { FAQItemProps } from '@/app/TS/interfaces/interface';
 const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   return (
     <details>
-      <summary className="py-2 outline-none cursor-pointer">{question}</summary>
+      <summary className="py-2 outline-none cursor-pointer my-2">{question}</summary>
       <div className="px-4 pb-4">
         <p>{answer}</p>
       </div>
