@@ -61,7 +61,7 @@ const ShowCase = () => {
   ];
 
   return (
-    <section className="py-20 container ">
+    <section className=" py-20 container m-auto">
       <div className="text-[42px] font-bold text-center text-black pb-10 flex items-center justify-center flex-col ">
         Empowering Businesses, Enabling Better India{" "}
         <div className="text-center">Through IT</div>
@@ -74,6 +74,7 @@ const ShowCase = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
