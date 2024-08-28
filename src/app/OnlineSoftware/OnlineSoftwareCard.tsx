@@ -20,8 +20,8 @@ export const RetailSoftware = () => {
             className="flex flex-col items-center p-6  border rounded-lg hover:shadow-lg"
           >
             <div className="text-6xl mb-3 ">{category.icon}</div>
-            <div className="text-center text-lg">{category.label}</div>
-            <div className="text-center text-sm category-description m-4">{ category.description}</div>
+            <div className="text-center text-xl text-semibold">{category.label}</div>
+            <div className="text-center text-sm py-2 text-gray-700 ">{ category.description}</div>
           </div>
         ))}
       </div>
@@ -49,8 +49,8 @@ export const DistributorSoftware = () => {
             className="flex flex-col items-center p-6  border rounded-lg hover:shadow-lg"
           >
             <div className="text-6xl mb-3 ">{category.icon}</div>
-            <div className="text-center text-lg">{category.label}</div>
-            <div className="text-center text-sm category-description m-4">{ category.description}</div>
+            <div className="text-center text-xl text-semibold ">{category.label}</div>
+            <div className="text-center text-sm py-2 text-gray-700">{ category.description}</div>
           </div>
         ))}
       </div>
@@ -78,8 +78,8 @@ export const ManufacturingSoftware = () => {
             className="flex flex-col items-center p-6  border rounded-lg hover:shadow-lg"
           >
             <div className="text-6xl mb-3 ">{category.icon}</div>
-            <div className="text-center text-lg">{category.label}</div>
-            <div className="text-center text-sm category-description m-4">{ category.description}</div>
+            <div className="text-center text-xl text-semibold">{category.label}</div>
+            <div className="text-center text-sm py-2 text-gray-700">{ category.description}</div>
           </div>
         ))}
       </div>
@@ -107,8 +107,8 @@ export const ERPCorporateSolutions = () => {
             className="flex flex-col items-center p-6  border rounded-lg hover:shadow-lg "
           >
              <div className="text-6xl mb-3 ">{category.icon}</div>
-            <div className="text-center text-lg">{category.label}</div>
-            <div className="text-center text-sm category-description m-4 ">{ category.description}</div>
+            <div className="text-center text-xl text-semibold">{category.label}</div>
+            <div className="text-center text-sm py-2 text-gray-700">{ category.description}</div>
           </div>
         ))}
       </div>
