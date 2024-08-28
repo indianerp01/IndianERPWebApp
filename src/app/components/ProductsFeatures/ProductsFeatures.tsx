@@ -10,6 +10,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 import { LiaFileInvoiceSolid } from "react-icons/lia";
 
 
+import { Icon } from '@iconify/react';
 
 const ProductsFeatures = () => {
 
@@ -18,13 +19,13 @@ const ProductsFeatures = () => {
             title: "100% Free E-invoicing",
             description:
                 "Get 100% Free E-invoicing and easily generate error-free e- invoices without going to the portal with zero downtime using IndianERP.",
-            icon: <TbFileInvoice />,
+            icon: <Icon icon="fxemoji:document" />,
         },
         {
             title: "Payment & Reconciliation",
             description:
                 "Simplify your payments & bill-by-bill reconciliation using Indian Pay at 0% service charges & 2% cashback for retailers.",
-            icon: < MdCurrencyRupee  />,
+            icon: <Icon icon="mdi:rupee"  style={{color: "#bdd504"}} />,
         },
         {
             title: "GST Billing & Return Filing",

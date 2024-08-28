@@ -2,7 +2,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
-
+import Link from "next/link";
 const Footer = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
               <div className="space-y-4">
                 <div>
-                  <a href="/">
+                  <Link href="/">
                     <div className="flex items-center space-x-2 text-2xl font-medium">
                       <span className="flex items-center justify-center font-bold">
                         <span className="text-orange-500 text-2xl">I-</span>
@@ -20,7 +20,7 @@ const Footer = () => {
                         <span className="text-green-500 text-2xl">TECH</span>
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="max-w-md pr-16 text-md0">
                   Enhance productivity and efficiency with cutting-edge
@@ -28,19 +28,18 @@ const Footer = () => {
                   operations.
                 </div>
                 <div className="flex space-x-2 text-2xl">
-                  <a href="" target="_blank">
-                    <FaFacebook  />
-                  </a>
-                  <a href="" target="_blank">
-                    <FaSquareXTwitter/>
-                  </a>
-                  <a href="" target="_blank">
+                  <Link href="" target="_blank">
+                    <FaFacebook />
+                  </Link>
+                  <Link href="" target="_blank">
+                    <FaSquareXTwitter />
+                  </Link>
+                  <Link href="" target="_blank">
                     <FaLinkedin />
-                  </a>
-                  <a href="" target="_blank">
+                  </Link>
+                  <Link href="" target="_blank">
                     <FaSquareInstagram />
-                  </a>
-
+                  </Link>
                 </div>
               </div>
               <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -51,38 +50,35 @@ const Footer = () => {
                     </h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/" className="text-md leading-6">
+                        <Link href="/" className="text-md leading-6">
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/Retail" className="text-md leading-6">
+                        <Link href="/Retail" className="text-md leading-6">
                           Retail
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/Distribution"
                           className="text-md leading-6"
                         >
                           Distribution
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/Manufacturing"
                           className="text-md leading-6"
                         >
                           Manufacturing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/ERP"
-                          className="text-md leading-6"
-                        >
+                        <Link href="/ERP" className="text-md leading-6">
                           ERP
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -92,25 +88,22 @@ const Footer = () => {
                     </h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a
-                          href="/MobileApps"
-                          className="text-md leading-6 "
-                        >
+                        <Link href="/MobileApps" className="text-md leading-6 ">
                           Mobile Apps
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/Others"
+                        <Link href="/Others" className="text-md leading-6 ">
+                          Others
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/OnlineSoftware"
                           className="text-md leading-6 "
                         >
-                          Others
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/OnlineSoftware" className="text-md leading-6 ">
                           Online Software
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -122,14 +115,14 @@ const Footer = () => {
                     </h3>
                     <ul role="list" className="mt-6 space-y-4">
                       <li>
-                        <a href="/aboutus" className="text-md leading-6 ">
+                        <Link href="/aboutus" className="text-md leading-6 ">
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/Contact" className="text-md leading-6 ">
+                        <Link href="/Contact" className="text-md leading-6 ">
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -142,7 +135,6 @@ const Footer = () => {
 
                     <h4 className="mt-6 space-y-4">Contact Number :</h4>
                     <p>
-                      
                       +91 9921163448 , <br /> +91 9922163448
                     </p>
                   </div>
@@ -151,11 +143,11 @@ const Footer = () => {
             </div>
             <div className="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-6">
               <div className="text-md text-center  ">
-                Copyright © 2024 .
-                <a rel="noopener" href="/">
+                © 2023 ICT — @All Rights Reserved
+                <Link rel="noopener" href="/">
                   {" "}
                   ICT
-                </a>
+                </Link>
               </div>
             </div>
           </div>

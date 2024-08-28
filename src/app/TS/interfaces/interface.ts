@@ -18,3 +18,24 @@ export interface SoftwareInfoProp {
   name: string;
 }
 
+
+ export interface FeatureData {
+  icon: JSX.Element;
+  title: string;
+}
+
+ export interface TabProps {
+  tabName: string;
+  isActive: boolean;
+  handleClick: (tabName: string) => void;
+}
+
+ export interface SectionProps {
+  title: string;
+  description: string;
+  activeTab: string;
+  content: React.ReactNode;
+}
+
+
+
