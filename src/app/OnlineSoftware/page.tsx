@@ -1,7 +1,10 @@
-import React from "react";
+import  OnlineSoftware  from "./OnlineSoftware"
+const page = () => {
+  return (
+    <div>
+     <OnlineSoftware/>
+    </div>
+  )
+}
 
-const OnlineSoftware = () => {
-  return <div>OnlineSoftware Page</div>;
-};
-
-export default OnlineSoftware;
+export default page

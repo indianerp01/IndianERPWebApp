@@ -65,6 +65,7 @@ const Landing = () => {
             icon={<SiPayloadcms className="text-7xl px-3 py-2" />}
           />
         </div>
+    
       </div>
     </section>
   );
