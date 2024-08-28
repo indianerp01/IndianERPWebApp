@@ -1,80 +1,104 @@
-import React from "react";
 import { AiOutlineTransaction } from "react-icons/ai";
 import { GiWorld } from "react-icons/gi";
 import { LiaFileMedicalAltSolid } from "react-icons/lia";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { PiInvoiceDuotone } from "react-icons/pi";
 
-interface ShowcaseStatProps {
-  icon: JSX.Element;
-  title: string;
-  desc: string;
-}
-
-const ShowcaseStat: React.FC<ShowcaseStatProps> = ({ icon, title, desc }) => {
-  return (
-    <div className="border-r">
-      <div className="flex items-center justify-center">{icon}</div>
-      <div className="flex items-center justify-center flex-col p-3 gap-y-1">
-        <div className="text-xl font-bold">{title}</div>
-        <div className="text-center text-sm">{desc}</div>
-      </div>
-    </div>
-  );
-};
-
 const ShowCase = () => {
-  const showcaseStats: ShowcaseStatProps[] = [
-    {
-      icon: (
-        <MdOutlineSupportAgent className="text-7xl rounded-full  bg-gray-100 p-3" />
-      ),
-      title: "10+",
-      desc: "Sales & Support Centers",
-    },
-    {
-      icon: (
-        <PiInvoiceDuotone className="text-7xl rounded-full  bg-gray-100 p-3" />
-      ),
-      title: "20 Billion+",
-      desc: "Invoices Processed Per Year",
-    },
-    {
-      icon: (
-        <AiOutlineTransaction className="text-7xl rounded-full  bg-gray-100 p-3" />
-      ),
-      title: "100 Billion $",
-      desc: "Transactions Processed A Year",
-    },
-    {
-      icon: (
-        <LiaFileMedicalAltSolid className="text-7xl rounded-full  bg-gray-100 p-3" />
-      ),
-      title: "Pharma & FMCG",
-      desc: "Runs On Marg ERP Software",
-    },
-    {
-      icon: <GiWorld className="text-7xl rounded-full  bg-gray-100 p-3" />,
-      title: "1 Million+",
-      desc: "Business Served World Wide",
-    },
-  ];
-
   return (
-    <section className=" py-20 container m-auto">
-      <div className="text-[42px] font-bold text-center text-black pb-10 flex items-center justify-center flex-col ">
+    <section className="py-22">
+      <div className="text-[42px] font-bold text-center text-black pb-10 flex items-center justify-center flex-col">
         Empowering Businesses, Enabling Better India{" "}
         <div className="text-center">Through IT</div>
       </div>
-      <div className="border rounded-md m-10">
+      <div className="border rounded-md">
         <div className="grid grid-cols-5 mx-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 md: py-10">
-          {showcaseStats.map((stat, index) => (
-            <ShowcaseStat key={index} {...stat} />
-          ))}
+          <div>
+            <div className="flex items-center justify-center ">
+              <MdOutlineSupportAgent className="text-7xl rounded-full  bg-gray-100 p-3" />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-xl font-bold">
+                10<sup>+</sup>{" "}
+              </div>
+              <div className="text-center text-sm">Sales & Support Centers</div>
+            </div>
+          </div>
+
+          {/*  */}
+          <div className="border-l-2">
+            <div className="flex items-center justify-center">
+              <PiInvoiceDuotone className="text-7xl rounded-full  bg-gray-100 p-3" />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-xl font-bold">
+                20 Billion<sup>+</sup>{" "}
+              </div>
+              <div className="text-center text-sm">
+                Invoices Processed Per Year
+              </div>
+            </div>
+          </div>
+          {/*  */}
+
+          <div className="border-l-2">
+            <div className="flex items-center justify-center">
+              <AiOutlineTransaction className="text-7xl rounded-full  bg-gray-100 p-3" />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-xl font-bold">100 Billion $</div>
+              <div className="text-center text-sm">
+                Transactions Processed A Year
+              </div>
+            </div>
+          </div>
+
+          {/*  */}
+
+          <div className="border-l-2">
+            <div className="flex items-center justify-center">
+              <LiaFileMedicalAltSolid className="text-7xl rounded-full  bg-gray-100 p-3" />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-xl font-bold line-clamp-1">
+                Pharma & FMCG
+              </div>
+              <div className="text-center text-sm">
+                Runs On Marg ERP Software
+              </div>
+            </div>
+          </div>
+
+          {/*  */}
+
+          <div className="border-l-2">
+            <div className="flex items-center justify-center">
+              <GiWorld className="text-7xl rounded-full  bg-gray-100 p-3" />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-xl font-bold">
+                1 Million<sup>+</sup>{" "}
+              </div>
+              <div className="text-center text-sm">
+                Business Served World Wide
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="border-l-2">
+            <div className="flex items-center justify-center">
+              <GiWorld className="text-7xl rounded-full  bg-gray-200 p-3 " />
+            </div>
+            <div className="flex items-center justify-center flex-col p-3 gap-y-1">
+              <div className="text-2xl font-bold">1 Million +</div>
+              <div className="text-center text-sm">
+                Business Served World Wide
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </section>
-    
   );
 };
 
