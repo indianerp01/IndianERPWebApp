@@ -5,7 +5,7 @@ const ShowcaseCard = () => {
   return (
     <>
       <div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center  justify-center">
           <IoIosLaptop className="w-16 h-16 " />
         </div>
         <div className="flex items-center justify-center flex-col">

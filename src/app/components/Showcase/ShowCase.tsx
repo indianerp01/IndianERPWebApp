@@ -6,7 +6,7 @@ import { PiInvoiceDuotone } from "react-icons/pi";
 
 const ShowCase = () => {
   return (
-    <section className="py-20">
+    <section className="py-22">
       <div className="text-[42px] font-bold text-center text-black pb-10 flex items-center justify-center flex-col">
         Empowering Businesses, Enabling Better India{" "}
         <div className="text-center">Through IT</div>
