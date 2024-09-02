@@ -2,15 +2,14 @@ import Title from "./components/Heading/Title";
 import Landing from "./components/Hero/Landing";
 import ShowCase from "./components/Showcase/ShowCase";
 import SoftwareComp from "./components/Software/SoftwareComp";
-import  Ecod  from "./components/Ecod/Ecod";
+import Ecod from "./components/Ecod/Ecod";
 
 export default function Home() {
   return (
-
     <main className="container ">
       <Landing />
-      <ShowCase />
       <Ecod />
+      <ShowCase />
       <Title title="Retail Softwares" />
       <SoftwareComp
         src1="/Retail/Retail-1.svg"
