@@ -1,3 +1,4 @@
+//  PharmacyData
 import { TbDatabasePlus } from "react-icons/tb";
 import { BsDatabaseCheck } from "react-icons/bs";
 import { BsHddRack } from "react-icons/bs";
@@ -15,69 +16,133 @@ import { HiOutlineTruck } from "react-icons/hi2";
 import { FaRecycle } from "react-icons/fa";
 //interface
 import { FeatureData } from "@/app/TS/interfaces/interface";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 //featuresData array with icons and titles.
-const featuresData: FeatureData[] = [
+export const PharmacyData: FeatureData[] = [
   {
-    icon: <BsDatabaseCheck className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="bi:database-fill" style={{ color: "#ece518" }} />,
     title: "Stock Management",
   },
   {
-    icon: <BsHddRack className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="noto:hourglass-with-flowing-sand" />,
     title: "Expiry Management",
   },
   {
-    icon: <TbDatabasePlus className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="clarity:rack-server-line" style={{ color: "#5bb9e1" }} />,
     title: "Rack Management",
   },
   {
-    icon: <CgFileDocument className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="lets-icons:paper-duotone" style={{ color: "#a55be1" }} />,
     title: "Prescription Management",
   },
   {
-    icon: <FaRegClock className="w-32 mb-3 text-6xl" />,
+    icon: (
+      <Icon
+        icon="fluent:channel-alert-28-filled" style={{ color: "#0adbb1" }}
+      />
+    ),
     title: "Alert Management",
   },
   {
-    icon: <MdOutlinePhoneIphone className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="noto-v1:mobile-phone" />,
     title: "Online Purchase Import",
   },
   {
-    icon: <MdEventAvailable className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="uim:calender" style={{ color: "#e510c8" }} />,
     title: "Substitute Availability",
   },
   {
-    icon: <GiRotaryPhone className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="hugeicons:telephone" style={{ color: "#fa8072" }} />,
     title: "Free Drug Helpline",
   },
   {
-    icon: <FaClockRotateLeft className="w-32 mb-3 text-6xl" />,
-    title: "24x7 Ordering",
+    icon: <Icon icon="teenyicons:clock-solid" style={{ color: "#7fff00" }} />,
+    title: "24x7 Ordering Management",
   },
   {
-    icon: <FaUserDoctor className="w-32 mb-3 text-6xl" />,
-    title: "Doctor Account",
+    icon: <Icon icon="fontisto:doctor" style={{ color: "#ff3800" }} />,
+    title: "Doctor Account Management",
   },
   {
-    icon: <BsPeople className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="twemoji:ledger" />,
     title: "Family Ledger Management",
   },
   {
-    icon: <GiTakeMyMoney className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="mdi:account-payment" style={{ color: "#00ccff " }} />,
     title: "Digital Payment & Collection",
   },
   {
-    icon: <BsBank className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="noto:bank" />,
     title: "Connected Banking",
   },
   {
-    icon: <HiOutlineTruck className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="noto:delivery-truck" />,
     title: "Delivery & Shipping",
   },
   {
-    icon: <FaRecycle className="w-32 mb-3 text-6xl" />,
+    icon: <Icon icon="mdi:recycle" style={{ color: "#4cbb17" }} />,
     title: "Re-Order Management",
   },
 ];
 
-export default featuresData;
+//  SuperMarketData
+export const SuperMarketFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="material-symbols:barcode" />,
+    title: "Barcode/ MRP wise Billing",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register"  style={{color: "#7586ff"}} />,
+    title: "Cash Drawer",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "Touch/POS Integration",
+  },
+  {
+    icon: <Icon icon="clarity:rack-server-line" style={{ color: "#5aa4a5" }}/>,
+    title: "Rack Management",
+  },
+  {
+    icon: <Icon icon="fa-solid:weight"  style={{color: "#ff7f50" }} />,
+    title: "Weighing Scale Attachment",
+  },
+  {
+    icon:  <Icon icon="bi:database-fill" style={{ color: "#e45556" }} />,
+    title: "Stock Management",
+  },
+  {
+    icon: <Icon icon="uim:calender" style={{ color: "#561ba8" }} />,
+    title: "Substitute Availability",
+  },
+  {
+    icon: <Icon icon="streamline:bag-rupee"  style={{color: "#fcc200"}} />,
+    title: "GST Compliant Solution",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Online Banking & Reconciliation",
+  },
+  {
+    icon:  <Icon icon="mdi:account-payment-outline"  style={{color: "#ff6fff"}} />,
+    title: "Digital Payments",
+  },
+  {
+    icon: <Icon icon="streamline-emojis:delivery-truck" />,
+    title: "Home Delivery",
+  },
+  {
+    icon: <Icon icon="marketeq:mobile-payment-done-2" style={{color: "#d2691e"}}  />,
+    title: "Digital Payment & Collection",
+  },
+  {
+    icon: <Icon icon="noto-v1:shopping-cart" />,
+    title: "Loyalty Point System",
+  },
+  {
+    icon: <Icon icon="hugeicons:discount"  style={{color: "#e5df24"}} />,
+    title: "Discount & Scheme Management",
+  },
+  
+];

@@ -23,11 +23,9 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="max-w-md pr-16 text-md0">
-                  Enhance productivity and efficiency with cutting-edge
-                  artificial intelligence solutions for your business
-                  operations.
+                Indian Computer Technology  is a web-based, easy-to-use software which gives you more control in managing your chain of shops. 
                 </div>
-                <div className="flex space-x-2 text-2xl">
+                <div className="flex space-x-2 text-3xl ">
                   <Link href="" target="_blank">
                     <FaFacebook />
                   </Link>
@@ -48,7 +46,7 @@ const Footer = () => {
                     <h3 className="text-md font-semibold leading-6 ">
                       Useful Links
                     </h3>
-                    <ul role="list" className="mt-6 space-y-4">
+                    <ul role="list" className="mt-6 space-y-2">
                       <li>
                         <Link href="/" className="text-md leading-6">
                           Home
@@ -86,7 +84,7 @@ const Footer = () => {
                     <h3 className="text-md font-semibold leading-6 ">
                       Use Software
                     </h3>
-                    <ul role="list" className="mt-6 space-y-4">
+                    <ul role="list" className="mt-6 space-y-2">
                       <li>
                         <Link href="/MobileApps" className="text-md leading-6 ">
                           Mobile Apps
@@ -113,7 +111,7 @@ const Footer = () => {
                     <h3 className="text-md font-semibold leading-6 ">
                       Resources
                     </h3>
-                    <ul role="list" className="mt-6 space-y-4">
+                    <ul role="list" className="mt-6 space-y-2">
                       <li>
                         <Link href="/aboutus" className="text-md leading-6 ">
                           About Us
@@ -130,10 +128,10 @@ const Footer = () => {
                     <h3 className="text-md font-semibold leading-6">
                       Contact Details
                     </h3>
-                    <h4 className="mt-6 space-y-4">Email id :</h4>
+                    <h4 className="mt-6 space-y-2">Email id :</h4>
                     <p>indiancomptech@gmail.com</p>
 
-                    <h4 className="mt-6 space-y-4">Contact Number :</h4>
+                    <h4 className="mt-6 space-y-2">Contact Number :</h4>
                     <p>
                       +91 9921163448 , <br /> +91 9922163448
                     </p>

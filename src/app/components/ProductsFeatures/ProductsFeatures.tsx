@@ -1,13 +1,6 @@
 import FeatureCards from "../ProductsFeatures/FeatureCards"
-import { TbFileInvoice } from "react-icons/tb";
-import { MdCurrencyRupee, MdOutlineAddShoppingCart } from "react-icons/md";
-import { HiComputerDesktop, HiPencilSquare } from "react-icons/hi2";
-import { FaBarcode, FaWhatsapp } from "react-icons/fa";
-import { RiShipLine } from "react-icons/ri";
-import { FiPhoneCall } from "react-icons/fi";
-import { LuBarChart4 } from "react-icons/lu";
-import { CiCreditCard1 } from "react-icons/ci";
-import { LiaFileInvoiceSolid } from "react-icons/lia";
+
+import { FaBarcode } from "react-icons/fa";
 
 
 import { Icon } from '@iconify/react';
@@ -31,7 +24,7 @@ const ProductsFeatures = () => {
             title: "GST Billing & Return Filing",
             description:
                 "Create GST invoices, multiple e-way bills & directly upload files in Excel, JSON or CSV format in GST portal and file GST returns.",
-            icon: <HiPencilSquare />,
+            icon: <Icon icon="streamline:bag-rupee-solid"  style={{color: "#bdd507"}} />,
         },
         {
             title: "Barcode Management",
@@ -43,55 +36,55 @@ const ProductsFeatures = () => {
             title: "Online Import Purchase",
             description:
                 "No need to feed manual Purchase. Import bill from any Excel or CSV format to save time with 100% accuracy.",
-            icon: <RiShipLine />,
+            icon: <Icon icon="flat-color-icons:shipped" />,
         },
         {
             title: "Bills, O/s on Whatsapp",
             description:
                 "Send Invoices, Outstanding, Stock and Sale Analysis etc. & various reports to customers directly on WhatsApp through Software.",
-            icon: <FaWhatsapp />
+            icon: <Icon icon="logos:whatsapp-icon" />
             ,
         },
         {
             title: "Direct Calling",
             description:
                 "To simplify the order taking process, connect your mobile with system by scanning QR code & place calls directly to customer for receiving orders.",
-            icon: <FiPhoneCall />
+            icon: <Icon icon="mage:phone-call-fill"  style={{color: "#451cd9"}} />
             ,
         },
         {
             title: "My Shop QR Code",
             description:
                 "List & upload products, schemes, offers in QR code. Print & paste outside shop/ counter where customers can directly scan & place orders.",
-            icon: <MdOutlineAddShoppingCart />
+            icon: <Icon icon="marketeq:qr-code-scan-2"  />
             ,
         },
         {
             title: "eRetail Web Application",
             description:
                 "Directly place online orders to distributors & check status of all orders, View nearby distributors, schemes inside Indian ERP.",
-            icon: <HiComputerDesktop />
+            icon: <Icon icon="fxemoji:oldpersonalcomputer" />
             ,
         },
         {
             title: "Inventory Management",
             description:
                 "Manage Focused, Dump and Near-Expiry stock level, set reorder points to replenish stock with Push Sale features.",
-            icon: <LuBarChart4 />
+            icon: <Icon icon="icon-park-outline:chart-histogram"  style={{color: "#d91c1c"}} />
             ,
         },
         {
             title: "Live Credit Limit",
             description:
                 "Set & Track the credit limit for customers to save huge losses. Get live notification during billing whenever limit is reached.",
-            icon: <CiCreditCard1 />
+            icon: <Icon icon="noto:credit-card" />
             ,
         },
         {
             title: "Purchase & Sale Claim",
             description:
                 "Get timely reminders & keep a track of benefits of claim against the purchases which is being done with Claims & Statements feature.",
-            icon: <LiaFileInvoiceSolid />
+            icon: <Icon icon="mdi:sale"  style={{color: "#deec18"}} />
             ,
         },
     ];
@@ -104,7 +97,7 @@ const ProductsFeatures = () => {
                         Find Better Solutions Build Better Products
                     </h2>
                 </div>
-                <div className="grid max-w-4xl lg:max-w-5xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
+                <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
                     {features.map((feature, index) => (
                         <FeatureCards key={index} feature={feature} />
                     ))}

@@ -1,5 +1,5 @@
 import FeatureItem from "@/app/components/FeaturesGlance/FeatureItem";
-import featuresData from "@/app/components/FeaturesGlance/featuresData";
+import { PharmacyData } from "@/app/components/FeaturesGlance/featuresData";
 
 const PharmacyFeatures = () => {
   return (
@@ -10,64 +10,64 @@ const PharmacyFeatures = () => {
       <div className="container px-5 py-12 mx-auto rounded-lg">
         <div className="flex flex-wrap text-center justify-center">
           <FeatureItem
-            icon={featuresData[0].icon}
-            title={featuresData[0].title}
+            icon={PharmacyData[0].icon}
+            title={PharmacyData[0].title}
           />
           <FeatureItem
-            icon={featuresData[1].icon}
-            title={featuresData[1].title}
+            icon={PharmacyData[1].icon}
+            title={PharmacyData[1].title}
           />
           <FeatureItem
-            icon={featuresData[2].icon}
-            title={featuresData[2].title}
+            icon={PharmacyData[2].icon}
+            title={PharmacyData[2].title}
           />
           <FeatureItem
-            icon={featuresData[3].icon}
-            title={featuresData[3].title}
+            icon={PharmacyData[3].icon}
+            title={PharmacyData[3].title}
           />
           <FeatureItem
-            icon={featuresData[4].icon}
-            title={featuresData[4].title}
+            icon={PharmacyData[4].icon}
+            title={PharmacyData[4].title}
           />
           <FeatureItem
-            icon={featuresData[5].icon}
-            title={featuresData[5].title}
+            icon={PharmacyData[5].icon}
+            title={PharmacyData[5].title}
           />
           <FeatureItem
-            icon={featuresData[6].icon}
-            title={featuresData[6].title}
+            icon={PharmacyData[6].icon}
+            title={PharmacyData[6].title}
           />
           <FeatureItem
-            icon={featuresData[7].icon}
-            title={featuresData[7].title}
+            icon={PharmacyData[7].icon}
+            title={PharmacyData[7].title}
           />
           <FeatureItem
-            icon={featuresData[8].icon}
-            title={featuresData[8].title}
+            icon={PharmacyData[8].icon}
+            title={PharmacyData[8].title}
           />
           <FeatureItem
-            icon={featuresData[9].icon}
-            title={featuresData[9].title}
+            icon={PharmacyData[9].icon}
+            title={PharmacyData[9].title}
           />
           <FeatureItem
-            icon={featuresData[10].icon}
-            title={featuresData[10].title}
+            icon={PharmacyData[10].icon}
+            title={PharmacyData[10].title}
           />
           <FeatureItem
-            icon={featuresData[11].icon}
-            title={featuresData[11].title}
+            icon={PharmacyData[11].icon}
+            title={PharmacyData[11].title}
           />
           <FeatureItem
-            icon={featuresData[12].icon}
-            title={featuresData[12].title}
+            icon={PharmacyData[12].icon}
+            title={PharmacyData[12].title}
           />
           <FeatureItem
-            icon={featuresData[13].icon}
-            title={featuresData[13].title}
+            icon={PharmacyData[13].icon}
+            title={PharmacyData[13].title}
           />
           <FeatureItem
-            icon={featuresData[14].icon}
-            title={featuresData[14].title}
+            icon={PharmacyData[14].icon}
+            title={PharmacyData[14].title}
           />
         </div>
       </div>
