@@ -18,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased min-h-screen mx-auto`}>
+      <body
+        className={`${inter.className}  antialiased min-h-screen mx-auto`}
+      >
         <Header />
-        {children} 
-        <Footer/>
+        {children}
+        <Footer />
       </body>
     </html>
   );

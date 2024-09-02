@@ -4,7 +4,7 @@ const page = () => {
       <div className="">
         {/* CONTACT US */}
         <div className="container m-auto flex flex-col md:flex-col max-w-7xl  my-10 ">
-          <h2 className=" text-3xl font-bold  flex justify-center m-10 ">
+          <h2 className=" text-5xl font-bold  flex justify-center m-10 ">
             Contact Us
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
@@ -102,7 +102,7 @@ const page = () => {
               </div>
               <button
                 type="submit"
-                className="bg-black text-white px-4 py-2 rounded-md w-full hover:bg-white hover:text-black border border-black"
+                className="bg-black text-white px-4 py-2 rounded-md w-full hover:bg-white hover:text-black border border-black transition-all ease-linear duration-300"
               >
                 Submit
               </button>

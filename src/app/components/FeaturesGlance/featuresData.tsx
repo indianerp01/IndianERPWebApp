@@ -14,7 +14,7 @@ import { BsBank } from "react-icons/bs";
 import { HiOutlineTruck } from "react-icons/hi2";
 import { FaRecycle } from "react-icons/fa";
 //interface
-import {FeatureData} from  "@/app/TS/interfaces/interface"
+import { FeatureData } from "@/app/TS/interfaces/interface";
 
 //featuresData array with icons and titles.
 const featuresData: FeatureData[] = [
