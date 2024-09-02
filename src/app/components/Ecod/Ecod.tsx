@@ -24,7 +24,7 @@ const Ecod = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/*Card 1 */}
 
-          <div className="border-2 border-neutral-200 rounded-lg p-6">
+          <div className="border border-neutral-200 p-6">
             <img
               src="/images/Indiapanel.svg "
               alt=""
@@ -41,7 +41,7 @@ const Ecod = () => {
 
           {/*Card 2 */}
 
-          <div className="border-2 border-neutral-200 rounded-lg p-6">
+          <div className="border border-neutral-200 p-6">
             <img
               src="/images/ad.svg"
               alt=""
@@ -61,7 +61,7 @@ const Ecod = () => {
 
           {/*Card 3 */}
 
-          <div className="border-2 border-neutral-200 rounded-lg p-6">
+          <div className="border border-neutral-200  p-6">
             <img
               src="/images/salesman.svg"
               alt=""
