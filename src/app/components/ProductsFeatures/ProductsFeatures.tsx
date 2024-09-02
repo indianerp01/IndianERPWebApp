@@ -81,7 +81,7 @@ const ProductsFeatures = () => {
             ,
         },
         {
-            title: "Live Credit Limit Management",
+            title: "Live Credit Limit",
             description:
                 "Set & Track the credit limit for customers to save huge losses. Get live notification during billing whenever limit is reached.",
             icon: <CiCreditCard1 />
