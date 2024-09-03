@@ -1,19 +1,4 @@
 //  PharmacyData
-import { TbDatabasePlus } from "react-icons/tb";
-import { BsDatabaseCheck } from "react-icons/bs";
-import { BsHddRack } from "react-icons/bs";
-import { CgFileDocument } from "react-icons/cg";
-import { FaRegClock } from "react-icons/fa6";
-import { MdOutlinePhoneIphone } from "react-icons/md";
-import { MdEventAvailable } from "react-icons/md";
-import { GiRotaryPhone } from "react-icons/gi";
-import { FaClockRotateLeft } from "react-icons/fa6";
-import { FaUserDoctor } from "react-icons/fa6";
-import { BsPeople } from "react-icons/bs";
-import { GiTakeMyMoney } from "react-icons/gi";
-import { BsBank } from "react-icons/bs";
-import { HiOutlineTruck } from "react-icons/hi2";
-import { FaRecycle } from "react-icons/fa";
 //interface
 import { FeatureData } from "@/app/TS/interfaces/interface";
 import { Icon } from "@iconify/react/dist/iconify.js";
