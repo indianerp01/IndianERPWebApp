@@ -1,5 +1,6 @@
 //interface
 import { FeatureData } from "@/app/TS/interfaces/interface";
+//Icons
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 //..................................................PharmacyData..................................................... //
@@ -14,17 +15,21 @@ export const PharmacyData: FeatureData[] = [
     title: "Expiry Management",
   },
   {
-    icon: <Icon icon="clarity:rack-server-line" style={{ color: "#5bb9e1" }} />,
+    icon: <Icon icon="clarity:rack-server-line" style={{ color: "#ffa500" }} />,
     title: "Rack Management",
   },
   {
-    icon: <Icon icon="lets-icons:paper-duotone" style={{ color: "#a55be1" }} />,
+    icon: <Icon icon="lets-icons:paper-duotone" style={{ color: "#3cb371" }} />,
     title: "Prescription Management",
   },
   {
-    icon: 
-      <Icon icon="fluent:channel-alert-28-filled" style={{ color: "#0adbb1" }}/>,
-       title: "Alert Management",
+    icon: (
+      <Icon
+        icon="fluent:channel-alert-28-filled"
+        style={{ color: "#3ab09e" }}
+      />
+    ),
+    title: "Alert Management",
   },
   {
     icon: <Icon icon="noto-v1:mobile-phone" />,
@@ -35,11 +40,11 @@ export const PharmacyData: FeatureData[] = [
     title: "Substitute Availability",
   },
   {
-    icon: <Icon icon="hugeicons:telephone" style={{ color: "#fa8072" }} />,
+    icon: <Icon icon="hugeicons:telephone" style={{ color: "#1e90ff" }} />,
     title: "Free Drug Helpline",
   },
   {
-    icon: <Icon icon="teenyicons:clock-solid" style={{ color: "#7fff00" }} />,
+    icon: <Icon icon="teenyicons:clock-solid" style={{ color: "#fe4eda " }} />,
     title: "24x7 Ordering Management",
   },
   {
@@ -63,7 +68,7 @@ export const PharmacyData: FeatureData[] = [
     title: "Delivery & Shipping",
   },
   {
-    icon: <Icon icon="mdi:recycle" style={{ color: "#4cbb17" }} />,
+    icon: <Icon icon="mdi:recycle" style={{ color: "#bd33a4 " }} />,
     title: "Re-Order Management",
   },
 ];
@@ -108,7 +113,9 @@ export const SuperMarketFeaturesData: FeatureData[] = [
     title: "Online Banking & Reconciliation",
   },
   {
-    icon: <Icon icon="mdi:account-payment-outline" style={{ color: "#ff6fff" }} />,
+    icon: (
+      <Icon icon="mdi:account-payment-outline" style={{ color: "#ff6fff" }} />
+    ),
     title: "Digital Payments",
   },
   {
@@ -116,8 +123,12 @@ export const SuperMarketFeaturesData: FeatureData[] = [
     title: "Home Delivery",
   },
   {
-    icon:
-      <Icon icon="marketeq:mobile-payment-done-2" style={{ color: "#d2691e" }} />,
+    icon: (
+      <Icon
+        icon="marketeq:mobile-payment-done-2"
+        style={{ color: "#d2691e" }}
+      />
+    ),
 
     title: "Digital Payment & Collection",
   },
@@ -200,7 +211,7 @@ export const POSFeaturesData: FeatureData[] = [
     title: "Barcode Management",
   },
   {
-    icon: <Icon icon="mdi:cash-register" style={{ color: "#3455ff" }} />,
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#ff69b4" }} />,
     title: "Cash Drawer",
   },
   {
@@ -208,7 +219,7 @@ export const POSFeaturesData: FeatureData[] = [
     title: "Re-Order Management",
   },
   {
-    icon: <Icon icon="ic:twotone-inventory" style={{ color: "#ff944d" }} />,
+    icon: <Icon icon="ic:twotone-inventory" style={{ color: "#fa8072" }} />,
     title: "Inventory Management",
   },
   {
@@ -216,11 +227,11 @@ export const POSFeaturesData: FeatureData[] = [
     title: "Bills, O/s on WhatsApp",
   },
   {
-    icon: <Icon icon="uim:calender" style={{ color: "#561ba8" }} />,
+    icon: <Icon icon="uim:calender" style={{ color: "#ff8c00" }} />,
     title: "Online Purchase Import",
   },
   {
-    icon: <Icon icon="hugeicons:discount" style={{ color: "#a5df24" }} />,
+    icon: <Icon icon="hugeicons:discount" style={{ color: "#ffd300" }} />,
     title: "Schemes & Discounts",
   },
   {
@@ -245,11 +256,13 @@ export const POSFeaturesData: FeatureData[] = [
   },
 ];
 
-//...................................................JwelleryFeaturesData.................................... //
+//...................................................JewelleryFeaturesData.................................... //
 
-export const JwelleryFeaturesData: FeatureData[] = [
+export const JewelleryFeaturesData: FeatureData[] = [
   {
-    icon: <Icon icon="fluent-mdl2:product-variant" style={{ color: "#fe5a1d " }} />,
+    icon: (
+      <Icon icon="fluent-mdl2:product-variant" style={{ color: "#fe5a1d " }} />
+    ),
     title: "Stock with Product Catalogue",
   },
   {
@@ -269,11 +282,11 @@ export const JwelleryFeaturesData: FeatureData[] = [
     title: "Weighing Scale Attachment",
   },
   {
-    icon: <Icon icon="fa-brands:cuttlefish"  style={{color: "#e4d00a"}} />,
+    icon: <Icon icon="fa-brands:cuttlefish" style={{ color: "#e4d00a" }} />,
     title: "Bhav Cutting",
   },
   {
-    icon: <Icon icon="ri:funds-fill"  style={{color: "#ff6961"}} />,
+    icon: <Icon icon="ri:funds-fill" style={{ color: "#ff6961" }} />,
     title: "Chit Funds & Kitty Management",
   },
   {
@@ -281,28 +294,1183 @@ export const JwelleryFeaturesData: FeatureData[] = [
     title: "Loyalty Point system",
   },
   {
-    icon:<Icon icon="noto-v1:man-judge" />,
+    icon: <Icon icon="noto-v1:man-judge" />,
     title: "Karigar Management",
   },
   {
-    icon: <Icon icon="fluent-mdl2:repair"  style={{color: "#e4d00a"}} />,
+    icon: <Icon icon="fluent-mdl2:repair" style={{ color: "#e4d00a" }} />,
     title: "Repairing Process",
   },
   {
     icon: (
-      <Icon icon="streamline:bag-rupee-solid"  style={{color: "#eb4c42"}} />
+      <Icon icon="streamline:bag-rupee-solid" style={{ color: "#eb4c42" }} />
     ),
     title: "Girvi / Mortgage",
   },
   {
-    icon: 
-<Icon icon="fluent:certificate-24-filled"  style={{color: "#f4ca16 "}} />,
+    icon: (
+      <Icon icon="fluent:certificate-24-filled" style={{ color: "#f4ca16 " }} />
+    ),
     title: "Certificate Printing",
   },
   {
-    icon: 
-<Icon icon="emojione-v1:ring" />,
-   
+    icon: <Icon icon="emojione-v1:ring" />,
+
     title: "Gold Hallmark Jewellery",
+  },
+];
+
+
+//...................................................RetailFeaturesData.................................... //
+
+
+export const RetailFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="solar:bill-check-broken"  style={{color: "#cd853f"}} />,
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="bi:database-fill" style={{ color: "#ffbf00" }} />,
+    title: "Stock Management",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "Touch/POS Integration",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:office-worker-light" />,
+    title: "Salesman Commission Report",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#8db600" }} />,
+    title: "Cash Drawer",
+  },
+  {
+    icon: <Icon icon="logos:whatsapp-icon" />,
+    title: "Bills, O/s on WhatsApp",
+  },
+  {
+    icon: <Icon icon="uim:calender" style={{ color: "#561ba8" }} />,
+    title: "Online Purchase Import",
+  },
+  {
+    icon: <Icon icon="hugeicons:discount" style={{ color: "#e5df24" }} />,
+    title: "Schemes & Discounts",
+  },
+  {
+    icon: <Icon icon="lets-icons:order" style={{ color: "#ff8c00" }} />,
+    title: "Order Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:chess-king" style={{ color: "#f5c238" }} />,
+    title: "Loyalty Point system",
+  },
+  {
+    icon: (
+      <Icon icon="ant-design:solution-outlined" style={{ color: "#ca1f7b" }} />
+    ),
+    title: "GST Compliant Solution",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:lock-rate-open-outline" style={{ color: "#7fff00" }} />
+    ),
+    title: "Rate wise GST",
+  },
+];
+//...................................................RestaurantFeaturesData.................................... //
+
+export const RestaurantFeaturesData: FeatureData[] = [
+  {
+    icon: (
+      <Icon icon="fluent:table-edit-28-regular" style={{ color: "#ff8c00" }} />
+    ),
+    title: "Table Creation",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:resize-table-24-filled"
+        style={{ color: "#32cd32 " }}
+      />
+    ),
+    title: "Table Transfer",
+  },
+  {
+    icon: <Icon icon="fluent:food-48-filled" style={{ color: "#cd853f " }} />,
+    title: "Kitchen Order Tickets",
+  },
+  {
+    icon: <Icon icon="ic:sharp-soup-kitchen" style={{ color: "#b768a2 " }} />,
+    title: "Kitchen Display System",
+  },
+  {
+    icon: <Icon icon="streamline-emojis:man-in-tuxedo-1" />,
+    title: "Waiter Wise Report",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:person-tipping-hand" />,
+    title: "Tip Management",
+  },
+  {
+    icon: <Icon icon="mingcute:bill-fill" style={{ color: "#43b3ae" }} />,
+    title: "CEasy & Fast Billing With POS Touch Screen",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:shop" />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:shopping-bags" />,
+    title: "Expiry Management",
+  },
+  {
+    icon: <Icon icon="ic:sharp-discount" style={{ color: "#eed202" }} />,
+    title: "Loyalty & CRM Program/ Discount & Schemes",
+  },
+  {
+    icon: <Icon icon="emojione-v1:mobile-phone-with-arrow" />,
+    title: "Smart Purchase & Re-Ordering System",
+  },
+  {
+    icon: <Icon icon="icon-park:folder-conversion" />,
+    title: "Conversion",
+  },
+];
+
+//...................................................PharmaFeaturesData.................................... //
+
+export const PharmaFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="flat-color-icons:document" />,
+    title: "100% Free E-invoicing",
+  },
+  {
+    icon: <Icon icon="noto:credit-card" />,
+    title: "Digital Payment & Collection",
+  },
+  {
+    icon: <Icon icon="noto:delivery-truck" />,
+    title: "Delivery & Shipping",
+  },
+  {
+    icon: (
+      <Icon icon="icon-park-twotone:phone-call" style={{ color: "#00ff00" }} />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: <Icon icon="uim:calender" style={{ color: "#561ba8" }} />,
+    title: "Online Purchase Import",
+  },
+  {
+    icon: <Icon icon="emojione-v1:shopping-bags" />,
+    title: "Re-Order Management",
+  },
+  {
+    icon: <Icon icon="fa-solid:warehouse" style={{ color: "#ee2f2f" }} />,
+    title: "Warehouse Management",
+  },
+  {
+    icon: <Icon icon="clarity:rack-server-line" style={{ color: "#5aa4a5" }} />,
+    title: "Rack Management",
+  },
+  {
+    icon: <Icon icon="ph:clock-clockwise-light" style={{ color: "#ee2f2f" }} />,
+    title: "Expiry Management",
+  },
+  {
+    icon: <Icon icon="ic:sharp-discount" style={{ color: "#eed202" }} />,
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Find New Customers on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#f4a460" }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="noto-v1:shopping-cart" />,
+    title: "Online Orders",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#138808" }}
+      />
+    ),
+    title: "Purchase & Sale Claim Management",
+  },
+  {
+    icon: <Icon icon="majesticons:table" style={{ color: "#ca1f7b" }} />,
+    title: "Restricted Drugs Management",
+  },
+];
+
+//...................................................FMCGFeaturesData.................................... //
+
+export const FMCGFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="flat-color-icons:document" />,
+    title: "100% Free E-invoicing",
+  },
+  {
+    icon: <Icon icon="logos:google-cloud" />,
+    title: "Auto-Cloud BackUp",
+  },
+  {
+    icon: <Icon icon="wpf:security-checked" style={{ color: "#fff600" }} />,
+    title: "Data Security",
+  },
+  {
+    icon: (
+      <Icon icon="solar:database-bold-duotone" style={{ color: "#ff8c00" }} />
+    ),
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#ba55d3" }} />,
+    title: "Cashier Management",
+  },
+  {
+    icon: <Icon icon="material-symbols:barcode" />,
+    title: "Barcode wise Billing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#f4a460" }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:box-open" style={{ color: "#bb6528" }} />,
+    title: "Dispatch Management",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:handbag" />,
+    title: "ERP Bridger",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Integrated Banking",
+  },
+  {
+    icon: <Icon icon="hugeicons:api" style={{ color: "#ee2f2f" }} />,
+    title: "API Integration",
+  },
+  {
+    icon: (
+      <Icon
+        icon="heroicons:document-currency-rupee-solid"
+        style={{ color: "#0247fe" }}
+      />
+    ),
+    title: "GST Filing",
+  },
+  {
+    icon: <Icon icon="solar:bill-list-bold" style={{ color: "#df00ff" }} />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#00a86b " }}
+      />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#f9429e" }}
+      />
+    ),
+    title: "Purchase & Sale Claim",
+  },
+  {
+    icon: <Icon icon="fa-brands:pushed" style={{ color: "#ff4500" }} />,
+    title: "Push Sale",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:collaboration" />,
+    title: "Collaborative Commerce",
+  },
+];
+
+//...................................................WholesaleDistributionFeaturesData............................ //
+
+export const WholesaleDistributionFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="mdi:invoice-text-edit" style={{ color: "#ee2f2f" }} />,
+    title: "100% Free E-invoicing",
+  },
+  {
+    icon: <Icon icon="logos:google-cloud" />,
+    title: "Auto-Cloud BackUp",
+  },
+  {
+    icon: <Icon icon="bxs:report" style={{ color: "#00a86b " }} />,
+    title: "Reporting",
+  },
+  {
+    icon: <Icon icon="wpf:security-checked" style={{ color: "#544298" }} />,
+    title: "Data Security",
+  },
+  {
+    icon: (
+      <Icon icon="solar:database-bold-duotone" style={{ color: "#ab8b00" }} />
+    ),
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#566675" }} />,
+    title: "Cashier Management",
+  },
+  {
+    icon: <Icon icon="material-symbols:barcode" />,
+    title: "Barcode wise Billing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#a54566" }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:box-open" style={{ color: "#ffa58" }} />,
+    title: "Dispatch Management",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:handbag" />,
+    title: "ERP Bridger",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Integrated Banking",
+  },
+  {
+    icon: <Icon icon="hugeicons:api" style={{ color: "#ee4578" }} />,
+    title: "API Integration",
+  },
+  {
+    icon: (
+      <Icon
+        icon="heroicons:document-currency-rupee-solid"
+        style={{ color: "#0247fe" }}
+      />
+    ),
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="solar:bill-list-bold" style={{ color: "#545678" }} />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#00a86b " }}
+      />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#f9429e" }}
+      />
+    ),
+    title: "Purchase & Sale Claim",
+  },
+  {
+    icon: <Icon icon="fa-brands:pushed" style={{ color: "#ff4500" }} />,
+    title: "Push Sale",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:collaboration" />,
+    title: "Collaborative Commerce",
+  },
+];
+
+//...................................................AutoMobileFeaturesData............................ //
+
+export const AutoMobileFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="iconamoon:invoice-light" style={{ color: "#ee2f2f" }} />,
+    title: "100% Free E-invoicing",
+  },
+  {
+    icon: <Icon icon="ic:twotone-cloud-done" style={{ color: "#ffa500" }} />,
+    title: "Auto-Cloud BackUp",
+  },
+  {
+    icon: (
+      <Icon
+        icon="icon-park-outline:table-report"
+        style={{ color: "#00cccc" }}
+      />
+    ),
+    title: "Reporting",
+  },
+  {
+    icon: (
+      <Icon icon="icon-park-twotone:data-all" style={{ color: "#8db600" }} />
+    ),
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="ic:twotone-inventory" style={{ color: "#ff6347" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#566675" }} />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: <Icon icon="material-symbols:barcode" />,
+    title: "Barcode wise Billing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#a54566" }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:box-open" style={{ color: "#b5651d" }} />,
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:handbag" />,
+    title: "ERP Bridger",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Integrated Banking",
+  },
+  {
+    icon: <Icon icon="carbon:document-import" style={{ color: "#ff1dce" }} />,
+    title: "Purchase Import",
+  },
+  {
+    icon: (
+      <Icon
+        icon="heroicons:document-currency-rupee-solid"
+        style={{ color: "#0247fe" }}
+      />
+    ),
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="solar:bill-list-bold" style={{ color: "#545678" }} />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#aaa86b " }}
+      />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#098978" }}
+      />
+    ),
+    title: "Purchase & Sale Claim",
+  },
+  {
+    icon: <Icon icon="fa-brands:pushed" style={{ color: "#ff4500" }} />,
+    title: "Push Sale",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:collaboration" />,
+    title: "Collaborative Commerce",
+  },
+];
+
+//...................................................SupplyChainFeatures............................ //
+
+export const SupplyChainFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="flat-color-icons:document" />,
+    title: "100% Free E-invoicing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:backup-rounded"
+        style={{ color: "#ffbf00" }}
+      />
+    ),
+    title: "Auto-Cloud BackUp",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:data-backup" />,
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="mdi:file-report" style={{ color: "#00bfff" }} />,
+    title: "Reporting",
+  },
+  {
+    icon: <Icon icon="fa6-solid:warehouse" style={{ color: "#9370db" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#873260" }} />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: <Icon icon="material-symbols:barcode" />,
+    title: "Barcode wise Billing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#00cc99 " }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:box-open" style={{ color: "#b5651d" }} />,
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:handbag" />,
+    title: "ERP Bridger",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Integrated Banking",
+  },
+  {
+    icon: <Icon icon="carbon:document-import" style={{ color: "#ff1dce" }} />,
+    title: "Purchase Import",
+  },
+  {
+    icon: (
+      <Icon
+        icon="heroicons:document-currency-rupee-solid"
+        style={{ color: "#e4d00a" }}
+      />
+    ),
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="solar:bill-list-bold" style={{ color: "#545678" }} />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#aaa86b " }}
+      />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#098978" }}
+      />
+    ),
+    title: "Purchase & Sale Claim",
+  },
+  {
+    icon: <Icon icon="fa-brands:pushed" style={{ color: "#ff8c69" }} />,
+    title: "Push Sale",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:collaboration" />,
+    title: "Collaborative Commerce",
+  },
+];
+
+//...................................................AccountingFeatures............................ //
+
+export const AccountingFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="hugeicons:audit-02" style={{ color: "#ff8c69 " }} />,
+    title: "Internal Audit",
+  },
+  {
+    icon: (
+      <Icon icon="heroicons-solid:receipt-tax" style={{ color: "#ffbf00" }} />
+    ),
+    title: "Tax Clubbing",
+  },
+  {
+    icon: <Icon icon="carbon:report-data" style={{ color: "#00cccc" }} />,
+    title: "GST Reports & Return Filing",
+  },
+  {
+    icon: <Icon icon="mdi:file-report" style={{ color: "#00b" }} />,
+    title: "GST Ready Invoices",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:invoice-text-multiple" style={{ color: "#ee2f2f" }} />
+    ),
+    title: "e-Invoicing",
+  },
+  {
+    icon: <Icon icon="twemoji:laptop" />,
+    title: "Online Banking",
+  },
+  {
+    icon: <Icon icon="mdi:bank-transfer" style={{ color: "#32cd32 " }} />,
+    title: "TDS/ TCS",
+  },
+  {
+    icon: <Icon icon="fluent-mdl2:report-add" style={{ color: "#78866b" }} />,
+    title: "Advanced Reporting",
+  },
+  {
+    icon: <Icon icon="pepicons-print:database" style={{ color: "#fbab60" }} />,
+    title: "Data Security",
+  },
+];
+
+//...................................................ErpSolutionFeatures............................ //
+
+export const ErpSolutionFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: <Icon icon="clarity:backup-solid" style={{ color: "#cae00d" }} />,
+    title: "Auto-Cloud Backup",
+  },
+  {
+    icon: <Icon icon="eos-icons:database" style={{ color: "#29ab87 " }} />,
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="logos:branch-icon" />,
+    title: "Branch Data Transfer",
+  },
+  {
+    icon: <Icon icon="hugeicons:web-design-01" style={{ color: "#1e90ff " }} />,
+    title: "Web Reporter",
+  },
+  {
+    icon: <Icon icon="vscode-icons:folder-type-controller" />,
+    title: "Central Control System",
+  },
+  {
+    icon: (
+      <Icon
+        icon="solar:branching-paths-down-bold-duotone"
+        style={{ color: "#ee2f2f" }}
+      />
+    ),
+    title: "Multi Branches GST Compliances",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:integrated-circuit-chip" style={{ color: "#ff8c00" }} />
+    ),
+    title: "Integrated system",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:invoice-text-multiple" style={{ color: "#ee2f2f" }} />
+    ),
+    title: "E-Invoicing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#546577" }}
+      />
+    ),
+    title: "Order Calling",
+  },
+];
+
+//................................................... AutomobileIndustryData............................ //
+
+export const AutomobileIndustryData: FeatureData[] = [
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:backup-rounded"
+        style={{ color: "#ffbf00" }}
+      />
+    ),
+    title: "Auto-Cloud BackUp",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:data-backup" />,
+    title: "Data Security",
+  },
+  {
+    icon: (
+      <Icon icon="solar:bill-list-bold-duotone" style={{ color: "##00bfff" }} />
+    ),
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="fa6-solid:warehouse" style={{ color: "#95e65f" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:import" />,
+    title: "Import Purchase",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:credit-score-rounded"
+        style={{ color: "#00cc99 " }}
+      />
+    ),
+    title: "Credit Limit Management",
+  },
+  {
+    icon: <Icon icon="fa6-solid:box-open" style={{ color: "#b5651d" }} />,
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="fluent-emoji-flat:handbag" />,
+    title: "ERP Bridger",
+  },
+  {
+    icon: <Icon icon="emojione:bank" />,
+    title: "Integrated Banking",
+  },
+  {
+    icon: <Icon icon="carbon:document-import" style={{ color: "#ff1dce" }} />,
+    title: "Purchase Import",
+  },
+  {
+    icon: (
+      <Icon
+        icon="heroicons:document-currency-rupee-solid"
+        style={{ color: "#e4d00a" }}
+      />
+    ),
+    title: "Bill Audit (Dispatch Management)",
+  },
+  {
+    icon: <Icon icon="solar:bill-list-bold" style={{ color: "#545678" }} />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#aaa86b " }}
+      />
+    ),
+    title: "Order Calling",
+  },
+  {
+    icon: (
+      <Icon
+        icon="mdi:printer-point-of-sale-edit"
+        style={{ color: "#098978" }}
+      />
+    ),
+    title: "Purchase & Sale Claim",
+  },
+  {
+    icon: <Icon icon="fa-brands:pushed" style={{ color: "#ff8c69" }} />,
+    title: "Push Sale",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:collaboration" />,
+    title: "Collaborative Commerce",
+  },
+];
+
+//................................................... TextileData..................................//
+
+export const TexttileFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: <Icon icon="clarity:backup-solid" style={{ color: "#987a76" }} />,
+    title: "Auto-Cloud Backup",
+  },
+  {
+    icon: <Icon icon="eos-icons:database" style={{ color: "#256567" }} />,
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:card-file-box" />,
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="ic:twotone-inventory" style={{ color: "#ff6347" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="noto-v1:bank" />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: (
+      <Icon
+        icon="solar:branching-paths-down-bold-duotone"
+        style={{ color: "#ee2f2f" }}
+      />
+    ),
+    title: "Multi Branches GST Compliances",
+  },
+  {
+    icon: <Icon icon="logos:producthunt" />,
+    title: "Procurement",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:invoice-text-multiple" style={{ color: "#44dfe4" }} />
+    ),
+    title: "E-Invoicing",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent:slide-text-call-20-filled"
+        style={{ color: "#a56656" }}
+      />
+    ),
+    title: "Order Calling",
+  },
+];
+
+//...................................................IndusrtyFeaturesData............................ //
+
+export const IndusrtyFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon icon="fluent:cloud-backup-16-filled" style={{ color: "#ee2f2f" }} />
+    ),
+    title: "Auto-Cloud Backup",
+  },
+  {
+    icon: (
+      <Icon
+        icon="streamline:database-refresh-solid"
+        style={{ color: "#0abab5" }}
+      />
+    ),
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:card-file-box" />,
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="ic:twotone-inventory-2" style={{ color: "#228b22" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="noto-v1:bank" />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: <Icon icon="carbon:document-import" style={{ color: "#ff1dce" }} />,
+    title: "Purchase Import",
+  },
+  {
+    icon: <Icon icon="noto:delivery-truck" />,
+    title: "Sales and Distribution",
+  },
+  {
+    icon: <Icon icon="logos:producthunt" />,
+    title: "Procurement",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:invoice-text-multiple" style={{ color: "#878678" }} />
+    ),
+    title: "E-Invoicing",
+  },
+  {
+    icon: (
+      <Icon icon="ic:baseline-phone-in-talk" style={{ color: "#32cd32" }} />
+    ),
+    title: "Order Calling",
+  },
+];
+
+//...................................................FoodFeaturesData............................ //
+
+export const FoodFeaturesData: FeatureData[] = [
+  {
+    icon: <Icon icon="pajamas:expire" style={{ color: "#ee2f2f" }} />,
+    title: "Expiry Management",
+  },
+
+  {
+    icon: <Icon icon="uim:graph-bar" style={{ color: "#55b776" }} />,
+    title: "Production Planning and Control",
+  },
+
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Sales Analysis on Google Map",
+  },
+  {
+    icon: (
+      <Icon icon="fluent:cloud-backup-16-filled" style={{ color: "#860989" }} />
+    ),
+    title: "Auto-Cloud Backup",
+  },
+  {
+    icon: (
+      <Icon
+        icon="streamline:database-refresh-solid"
+        style={{ color: "#676679" }}
+      />
+    ),
+    title: "Data Security",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:card-file-box" />,
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="ic:twotone-inventory-2" style={{ color: "#879878" }} />,
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="noto-v1:bank" />,
+    title: "Auto-Bank Reconciliation",
+  },
+  {
+    icon: <Icon icon="carbon:document-import" style={{ color: "#ff1dce" }} />,
+    title: "Purchase Import",
+  },
+  {
+    icon: <Icon icon="noto:delivery-truck" />,
+    title: "Sales and Distribution",
+  },
+  {
+    icon: <Icon icon="logos:producthunt" />,
+    title: "Procurement",
+  },
+  {
+    icon: <Icon icon="twemoji:mobile-phone" />,
+    title: "E-Way Bill",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:invoice-text-multiple" style={{ color: "#878678" }} />
+    ),
+    title: "E-Invoicing",
+  },
+  {
+    icon: (
+      <Icon icon="ic:baseline-phone-in-talk" style={{ color: "#32cd32" }} />
+    ),
+    title: "Order Calling",
+  },
+];
+
+//...................................................PayrollData............................ //
+
+export const PayrollData: FeatureData[] = [
+  {
+    icon: (
+      <Icon
+        icon="streamline:database-refresh-solid"
+        style={{ color: "#676679" }}
+      />
+    ),
+    title: "Calculate Payroll Automatically",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:currency-rupee-circle"
+        style={{ color: "#ee2f2f" }}
+      />
+    ),
+    title: "Support Diverse Salary Structures",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:card-file-box" />,
+    title: "Always Pay Employees on Time",
+  },
+  {
+    icon: <Icon icon="twemoji:blue-book" />,
+    title: "Simple Statutory Compliance",
+  },
+  {
+    icon: (
+      <Icon icon="icon-park-outline:correct" style={{ color: "#ffd300" }} />
+    ),
+    title: "Precise Administrative Rights",
+  },
+  {
+    icon: <Icon icon="noto-v1:mobile-phone" />,
+    title: "Easy data migration",
+  },
+  {
+    icon: (
+      <Icon icon="clarity:employee-group-solid" style={{ color: "#7cfc00" }} />
+    ),
+    title: "Manage Employee Raises, Promotions",
+  },
+  {
+    icon: (
+      <Icon
+        icon="icon-park-solid:history-query"
+        style={{ color: "#bf00ff " }}
+      />
+    ),
+    title: "Keep Track Of Salary History & Designation",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "Structured Employee Exit Management",
+  },
+];
+
+//...................................................BillingData............................//
+
+export const BillingData: FeatureData[] = [
+  {
+    icon: 
+    <Icon icon="noto:money-bag" /> ,
+    title: "GST Compliant",
+  },
+  {
+    icon: (
+      <Icon icon="mdi:printer-pos-edit"  style={{color: "#ee2f2f"}} />
+    ),
+    title: "POS Terminal",
+  },
+  {
+    icon: <Icon icon="fluent-emoji:card-file-box" />,
+    title: "Cash Drawer",
+  },
+  {
+    icon: <Icon icon="twemoji:blue-book" />,
+    title: "Invoice Customization",
+  },
+  {
+    icon: (
+      <Icon icon="icon-park-outline:correct" style={{ color: "#ffd300" }} />
+    ),
+    title: "Barcode Scanner",
+  },
+  {
+    icon: <Icon icon="noto-v1:mobile-phone" />,
+    title: "Invoice Customization",
+  },
+  {
+    icon: (
+      <Icon icon="clarity:employee-group-solid" style={{ color: "#7cfc00" }} />
+    ),
+    title: "Connected Banking",
+  },
+  {
+    icon: (
+      <Icon
+        icon="icon-park-solid:history-query"
+        style={{ color: "#bf00ff " }}
+      />
+    ),
+    title: "Discounts & schemes",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "Easy Accounting",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "Payment Reminders",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "Re-Order Management",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "Easy Accounting",
+  },
+  {
+    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    title: "MOnline Purchase Import",
   },
 ];

@@ -10,7 +10,6 @@ export default function Home() {
       <Landing />
       <Ecod />
       <ShowCase />
-      <Title title="Retail Softwares" />
       <SoftwareComp
         src1="/Retail/Retail-1.svg"
         src2="/Retail/Retail-2.svg"

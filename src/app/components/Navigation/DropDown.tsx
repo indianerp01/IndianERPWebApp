@@ -23,13 +23,13 @@ const DropDown = ({
   return (
     <div>
       <div className="text-neutral-500 group relative hover:text-neutral-900 cursor-pointer  transition-all ease-linear duration-200">
-        <div className="flex items-center justify-center group/icon">
+        <div className="flex items-center justify-center group/icon ">
           <Link href={titleHREF}>{title}</Link>{" "}
           <span>
             <RiArrowDropDownLine className="group-hover/icon:rotate-180 w-4 h-4 transition-transform ease-linear duration-200" />
           </span>
         </div>
-        <div className="absolute hidden top-[18px] group-hover:flex flex-col w-max  bg-gray-100 px-3 mt-[4px] transition-all duration-300 ease-linear py-3 rounded">
+        <div className="absolute hidden top-[18px] group-hover:flex flex-col w-max  bg-gray-100 px-3 mt-[4px] transition-all duration-300 ease-linear py-3 rounded border ">
           <Link
             href={href1 as string}
             className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
