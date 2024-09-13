@@ -8,7 +8,7 @@ import {
 } from "./OnlineSoftwareCard";
 
 const OnlineSoftware = () => {
-  const [activeTab, setActiveTab] = useState("tab1");
+  const [activeTab, setActiveTab] = useState("all");
   const handleTabClick = (
     event: React.MouseEvent<HTMLButtonElement>,
     tabName: string

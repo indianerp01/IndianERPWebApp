@@ -38,3 +38,18 @@ export interface FeatureItemProp {
   title: String;
   icon: JSX.Element;
 }
+
+export interface HeroProps { 
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonLink: string;
+  imageSrc: string;
+}
+
+export interface HeroHeader { 
+  title: string;
+  description: string;
+  link: string;
+
+}

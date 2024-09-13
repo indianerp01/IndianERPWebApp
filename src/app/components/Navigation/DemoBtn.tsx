@@ -5,7 +5,7 @@ const DemoBtn = () => {
   return (
     <a href ="tel:+919921163448"
       type="button"
-      className="hover:bg-gray-100 ring-1 ring-gray-200 duration-200 transition-all px-2 py-1 rounded text-sm flex items-center justify-center gap-2"
+      className="hover:bg-gray-100 ring-1 ring-gray-200 duration-200 transition-all px-2 py-1 rounded text-sm flex items-center justify-center gap-2  max-sm:text-lg "
     >
       Book Demo{" "}
       <span>

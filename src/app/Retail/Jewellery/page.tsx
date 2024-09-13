@@ -1,12 +1,12 @@
 import ShowCase from "@/app/components/Showcase/ShowCase";
 import React from "react";
-import JwelleryFeatures from "./JwelleryFeatures";
+import JewelleryFeatures from "./JewelleryFeatures";
 
-const Jwellery = () => {
+const Jewellery = () => {
   return <div className="container m-auto">
     <ShowCase/>
-    <JwelleryFeatures/>
+    <JewelleryFeatures/>
   </div>;
 };
 
-export default Jwellery;
+export default Jewellery;
