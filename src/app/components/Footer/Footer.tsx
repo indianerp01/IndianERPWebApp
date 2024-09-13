@@ -23,7 +23,9 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="max-w-md pr-16 text-md0">
-                Indian Computer Technology  is a web-based, easy-to-use software which gives you more control in managing your chain of shops. 
+                  Indian Computer Technology is a web-based, easy-to-use
+                  software which gives you more control in managing your chain
+                  of shops.
                 </div>
                 <div className="flex space-x-2 text-3xl ">
                   <Link href="" target="_blank">
@@ -44,7 +46,7 @@ const Footer = () => {
                 <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-md font-semibold leading-6 ">
-                      Useful Links
+                      Navigation Links
                     </h3>
                     <ul role="list" className="mt-6 space-y-2">
                       <li>
@@ -82,7 +84,7 @@ const Footer = () => {
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="text-md font-semibold leading-6 ">
-                      Use Software
+                      Softwares
                     </h3>
                     <ul role="list" className="mt-6 space-y-2">
                       <li>
