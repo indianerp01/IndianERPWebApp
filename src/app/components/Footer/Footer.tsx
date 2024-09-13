@@ -1,8 +1,6 @@
-import { FaFacebook } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
 import Link from "next/link";
+import { Icon } from "@iconify/react/dist/iconify.js";
+
 const Footer = () => {
   return (
     <>
@@ -29,16 +27,16 @@ const Footer = () => {
                 </div>
                 <div className="flex space-x-2 text-3xl ">
                   <Link href="" target="_blank">
-                    <FaFacebook />
+                    <Icon icon="logos:facebook" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaSquareXTwitter />
+                    <Icon icon="logos:twitter" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaLinkedin />
+                    <Icon icon="logos:linkedin-icon" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaSquareInstagram />
+                    <Icon icon="skill-icons:instagram" />
                   </Link>
                 </div>
               </div>
