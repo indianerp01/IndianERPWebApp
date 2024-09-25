@@ -1,8 +1,6 @@
-import { FaFacebook } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
 import Link from "next/link";
+import { Icon } from "@iconify/react/dist/iconify.js";
+
 const Footer = () => {
   return (
     <>
@@ -23,20 +21,22 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="max-w-md pr-16 text-md0">
-                Indian Computer Technology  is a web-based, easy-to-use software which gives you more control in managing your chain of shops. 
+                  Indian Computer Technology is a web-based, easy-to-use
+                  software which gives you more control in managing your chain
+                  of shops.
                 </div>
                 <div className="flex space-x-2 text-3xl ">
                   <Link href="" target="_blank">
-                    <FaFacebook />
+                    <Icon icon="logos:facebook" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaSquareXTwitter />
+                    <Icon icon="logos:twitter" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaLinkedin />
+                    <Icon icon="logos:linkedin-icon" />
                   </Link>
                   <Link href="" target="_blank">
-                    <FaSquareInstagram />
+                    <Icon icon="skill-icons:instagram" />
                   </Link>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-md font-semibold leading-6 ">
-                      Useful Links
+                      Navigation Links
                     </h3>
                     <ul role="list" className="mt-6 space-y-2">
                       <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="text-md font-semibold leading-6 ">
-                      Use Software
+                      Softwares
                     </h3>
                     <ul role="list" className="mt-6 space-y-2">
                       <li>
