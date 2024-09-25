@@ -51,5 +51,10 @@ export interface HeroHeader {
   title: string;
   description: string;
   link: string;
-
-}
+  img1: string;
+  img2: string;
+  img3: string;
+  heading1: string;
+  heading2: string;
+  heading3: string;
+  }

@@ -7,6 +7,7 @@ import Ecod from "./components/Ecod/Ecod";
 export default function Home() {
   return (
     <main className="container ">
+      {/* <Hero/> */}
       <Landing />
       <Ecod />
       <ShowCase />

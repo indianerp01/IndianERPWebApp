@@ -7,11 +7,11 @@ import { PiInvoiceDuotone } from "react-icons/pi";
 const ShowCase = () => {
   return (
     <section className="py-20">
-      <div className="text-[42px] font-bold text-center text-neutral-700 pb-10 flex items-center justify-center flex-col">
+      <div className="text-[42px] font-bold text-center text-neutral-700 pb-10 flex items-center justify-center flex-col ">
         Empowering Businesses, Enabling Better India{" "}
         <div className="text-center">Through IT</div>
       </div>
-      <div className="border rounded-md">
+      <div className="border rounded-md  bg-gray-200 bg-opacity-10">
         <div className="grid grid-cols-5 mx-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 md: py-10">
           <div>
             <div className="flex items-center justify-center ">

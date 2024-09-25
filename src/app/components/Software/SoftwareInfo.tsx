@@ -2,8 +2,8 @@ import { SoftwareInfoProp } from "@/app/TS/interfaces/interface";
 
 const SoftwareInfo = ({ src, name }: SoftwareInfoProp) => {
   return (
-    <div className="flex flex-col gap-4 border p-3">
-      <div className="border rounded-md">
+    <div className="flex flex-col gap-4 border p-3 ">
+      <div className="border rounded-md ">
         <img
           src={src}
           alt=""

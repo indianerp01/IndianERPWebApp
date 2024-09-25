@@ -18,7 +18,7 @@ const SoftwareComp = ({
 }: any) => {
   return (
     <div>
-      <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 py-5 gap-6">
+      <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 py-5 gap-6 ">
         <SoftwareInfo src={src1} name={name1} />
         <SoftwareInfo src={src2} name={name2} />
         <SoftwareInfo src={src3} name={name3} />

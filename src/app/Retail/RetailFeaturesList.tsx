@@ -66,7 +66,7 @@ const FeaturesList = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="mt-12 sm:mt-16 lg:mt-0 ">
               <img
                 className="w-full h-[350px] object-fit-cover grayscale-[20%] border-2 rounded-lg "
                 src={feature.image}

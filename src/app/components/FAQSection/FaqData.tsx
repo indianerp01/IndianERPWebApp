@@ -374,11 +374,11 @@ export const GSTData = [
   },
 ];
 
-//..........................................E-InvoiceData.................................//
+//..........................................InvoiceData.................................//
 
-export const E_InvoiceData = [
+export const InvoiceData = [
   {
-    question: "What is E-Invoicing Software?",
+    question: "What is Invoicing Software?",
     answer:
       "E-invoicing also known as electronic invoicing; is a system in which all B2B invoices are electronically uploaded and verified by the designated portal. Once authentication has been completed, a specific Invoice Reference Number (IRN) and QR code are generated and must be printed on the invoice. The GST e invoicing software on which we do all these processes is called e-invoicing software or e-invoice software.",
   },

@@ -141,7 +141,7 @@ const Footer = () => {
             </div>
             <div className="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-6">
               <div className="text-md text-center  ">
-                © 2023 ICT — @All Rights Reserved
+                © 2024 ICT — @All Rights Reserved
                 <Link rel="noopener" href="/">
                   {" "}
                   ICT

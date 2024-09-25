@@ -18,13 +18,13 @@ const Hero = ({ title, description, buttonText, buttonLink, imageSrc } : HeroPro
           <div className="flex gap-x-5 flex-col gap-y-2.5 lg:flex-row">
             <a
               href={buttonLink}
-              className="flex w-full lg:w-fit items-center text-white justify-center rounded-md bg-black px-6 py-2.5 hover:bg-white  hover:text-black border border-black transition-all ease-linear duration-300"
+              className="flex w-full lg:w-fit items-center text-white justify-center rounded-lg bg-black px-6 py-2.5 hover:bg-white  hover:text-black border border-black transition-all ease-linear duration-300"
             >
               <span>{buttonText}</span>
             </a>
           </div>
         </div>
-        <div className=" md:px-5 lg:px-0 w-full lg:w-1/2 rounded-3xl md:pt-2 lg:pt-0 relative isolate z-10">
+        <div className=" md:px-5 lg:px-0 w-full lg:w-1/2 rounded-3xl md:pt-2 lg:pt-0 relative isolate z-10  bg-gray-200 bg-opacity-20">
         
           <img
             className="rounded-3xl w-full border h-[400px]  object-fit-cover  grayscale-[20%]"

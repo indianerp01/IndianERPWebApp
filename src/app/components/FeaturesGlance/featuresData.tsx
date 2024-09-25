@@ -320,13 +320,11 @@ export const JewelleryFeaturesData: FeatureData[] = [
   },
 ];
 
-
 //...................................................RetailFeaturesData.................................... //
-
 
 export const RetailFeaturesData: FeatureData[] = [
   {
-    icon: <Icon icon="solar:bill-check-broken"  style={{color: "#cd853f"}} />,
+    icon: <Icon icon="solar:bill-check-broken" style={{ color: "#cd853f" }} />,
     title: "Easy & Fast Billing",
   },
   {
@@ -1410,14 +1408,11 @@ export const PayrollData: FeatureData[] = [
 
 export const BillingData: FeatureData[] = [
   {
-    icon: 
-    <Icon icon="noto:money-bag" /> ,
+    icon: <Icon icon="noto:money-bag" />,
     title: "GST Compliant",
   },
   {
-    icon: (
-      <Icon icon="mdi:printer-pos-edit"  style={{color: "#ee2f2f"}} />
-    ),
+    icon: <Icon icon="mdi:printer-pos-edit" style={{ color: "#ee2f2f" }} />,
     title: "POS Terminal",
   },
   {
@@ -1454,23 +1449,329 @@ export const BillingData: FeatureData[] = [
     title: "Discounts & schemes",
   },
   {
-    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    icon: <Icon icon="mdi:account-tie" style={{ color: "#08e8de" }} />,
     title: "Easy Accounting",
   },
   {
-    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    icon: (
+      <Icon icon="fluent-mdl2:reminder-time" style={{ color: "#fc5a8d " }} />
+    ),
     title: "Payment Reminders",
   },
   {
-    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
+    icon: <Icon icon="icon-park:transaction-order" />,
     title: "Re-Order Management",
   },
+];
+
+//...................................................ManagementSoftwareData...................................//
+
+export const ManagementSoftwareData: FeatureData[] = [
   {
-    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
-    title: "Easy Accounting",
+    icon: <Icon icon="carbon:dashboard" style={{ color: "#ee2f2f" }} />,
+    title: "Dashboard",
   },
   {
-    icon: <Icon icon="solar:history-2-linear" style={{ color: "#ff66cc" }} />,
-    title: "MOnline Purchase Import",
+    icon: <Icon icon="mdi:report-box-multiple" style={{ color: "#7cfc00" }} />,
+    title: "Reporting & Analytics",
+  },
+  {
+    icon: <Icon icon="game-icons:cash" style={{ color: "#fcc200" }} />,
+    title: "Cash Drawer",
+  },
+  {
+    icon: (
+      <Icon
+        icon="ic:twotone-collections-bookmark"
+        style={{ color: "#00cc99" }}
+      />
+    ),
+    title: "Collaboration Tools",
+  },
+  {
+    icon: (
+      <Icon icon="carbon:workflow-automation" style={{ color: "#ff8c69" }} />
+    ),
+    title: "Workflow Automation",
+  },
+  {
+    icon: <Icon icon="noto-v1:mobile-phone" />,
+    title: "Security & Access Control",
+  },
+  {
+    icon: (
+      <Icon icon="clarity:employee-group-solid" style={{ color: "#7cfc00" }} />
+    ),
+    title: "Integration",
+  },
+  {
+    icon: (
+      <Icon
+        icon="icon-park-solid:history-query"
+        style={{ color: "#bf00ff " }}
+      />
+    ),
+    title: "Mobile Access",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:dashboard-customize"
+        style={{ color: "#fe4eda" }}
+      />
+    ),
+    title: "Customization",
+  },
+];
+
+//...................................................HotelERPSoftwaresData...................................//
+
+export const HotelERPSoftwaresData: FeatureData[] = [
+  {
+    icon: <Icon icon="solar:sale-bold-duotone" style={{ color: "#ee2f2f" }} />,
+    title: "Sales & Marketing",
+  },
+  {
+    icon: <Icon icon="ic:outline-star-rate" style={{ color: "#fcc200" }} />,
+    title: "Rate Management",
+  },
+  {
+    icon: <Icon icon="noto:package" />,
+    title: "Package Creation",
+  },
+  {
+    icon: <Icon icon="bi:sign-yield-fill" style={{ color: "#7cfc00" }} />,
+    title: "Yield Management",
+  },
+  {
+    icon: <Icon icon="wpf:maintenance" style={{ color: "#cd853f " }} />,
+    title: "Maintenance Management",
+  },
+  {
+    icon: <Icon icon="ic:twotone-security" style={{ color: "#00b7eb" }} />,
+    title: "Security Management",
+  },
+  {
+    icon: <Icon icon="fluent:guest-32-filled" style={{ color: "#9932cc" }} />,
+    title: "Guest Management",
+  },
+  {
+    icon: <Icon icon="fontisto:room" style={{ color: "#ee2f2f" }} />,
+    title: "Room Management",
+  },
+  {
+    icon: <Icon icon="fluent:channel-48-filled" style={{ color: "#e49b0f" }} />,
+    title: "Channel Management",
+  },
+];
+
+//...................................................InventoryManagementData...................................//
+export const InventoryManagementData: FeatureData[] = [
+  {
+    icon: (
+      <Icon
+        icon="fluent:document-database-20-filled"
+        style={{ color: "#ee2f2f" }}
+      />
+    ),
+    title: "Inventory Database",
+  },
+  {
+    icon: (
+      <Icon icon="fluent-mdl2:product-catalog" style={{ color: "#bf00ff " }} />
+    ),
+    title: "Product details",
+  },
+  {
+    icon: <Icon icon="noto:package" />,
+    title: "Purchase history",
+  },
+  {
+    icon: <Icon icon="logos:google-maps" />,
+    title: "Location tracking",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:shop" />,
+    title: "Vendor information",
+  },
+  {
+    icon: <Icon icon="icon-park:time" />,
+    title: "Real-time Stock Updates",
+  },
+  {
+    icon: (
+      <Icon icon="grommet-icons:document-time" style={{ color: "#7cfc00" }} />
+    ),
+    title: "Expiry dates",
+  },
+  {
+    icon: (
+      <Icon
+        icon="solar:ticket-sale-bold-duotone"
+        style={{ color: "#ee2f2f" }}
+      />
+    ),
+    title: "Sales orders",
+  },
+  {
+    icon: (
+      <Icon
+        icon="hugeicons:package-out-of-stock"
+        style={{ color: "#0000cd" }}
+      />
+    ),
+    title: "Stock Alerts",
+  },
+];
+
+//...................................................GSTData...................................//
+
+export const GSTData: FeatureData[] = [
+  {
+    icon: (
+      <Icon icon="fontisto:shopping-barcode" style={{ color: "#ff8c00 " }} />
+    ),
+    title: "Barcode & Fast Billing",
+  },
+  {
+    icon: (
+      <Icon icon="flowbite:profile-card-solid" style={{ color: "#e4d00a" }} />
+    ),
+    title: "Customer Profile Management",
+  },
+  {
+    icon: (
+      <Icon
+        icon="material-symbols:inventory-2-rounded"
+        style={{ color: "#32cd32" }}
+      />
+    ),
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="arcticons:payzapp" style={{ color: "#00b7eb" }} />,
+    title: "Multimode Payment Mode",
+  },
+  {
+    icon: <Icon icon="mdi:cash-register" style={{ color: "#8db600" }} />,
+    title: "Cashier & Home Delivery",
+  },
+  {
+    icon: <Icon icon="simple-icons:scrapbox" style={{ color: "#ee2f2f" }} />,
+    title: "Scrap Management",
+  },
+  {
+    icon: (
+      <Icon icon="grommet-icons:document-time" style={{ color: "#7cfc00" }} />
+    ),
+    title: "Easy & Fast Billing",
+  },
+  {
+    icon: <Icon icon="icon-park:bill" />,
+    title: "Import Purchase",
+  },
+  {
+    icon: <Icon icon="logos:google-gmail" />,
+    title: "SMS/E-Mail (Schedule)",
+  },
+];
+
+//...................................................WebAppData...................................//
+
+export const WebAppData: FeatureData[] = [
+  {
+    icon: (
+      <Icon icon="solar:login-3-bold-duotone" style={{ color: "#009900 " }} />
+    ),
+    title: "Login/Registration",
+  },
+  {
+    icon: <Icon icon="eos-icons:role-binding" style={{ color: "#0d98ba" }} />,
+    title: "Role-based Access Control",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent-mdl2:data-management-settings"
+        style={{ color: "#f77fbe" }}
+      />
+    ),
+    title: "Password Management",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:data-recovery" />,
+    title: "Data Management",
+  },
+  {
+    icon: <Icon icon="vscode-icons:file-type-search-result" />,
+    title: "Search & Filtering",
+  },
+  {
+    icon: <Icon icon="logos:google-gmail" />,
+    title: "Email Integration",
+  },
+  {
+    icon: (
+      <Icon icon="fluent:payment-16-regular" style={{ color: "#93a34d" }} />
+    ),
+    title: "Payment Processing",
+  },
+  {
+    icon: <Icon icon="icon-park:transaction-order" />,
+    title: "Order Tracking",
+  },
+  {
+    icon: <Icon icon="ic:twotone-security" style={{ color: "#ee2f2f" }} />,
+    title: "Security & Privacy",
+  },
+];
+
+//...................................................E_AppSoftwaresData...................................//
+
+export const E_AppSoftwaresData: FeatureData[] = [
+  {
+    icon: (
+      <Icon icon="logos:producthunt" />
+    ),
+    title: "Product Management",
+  },
+  {
+    icon: <Icon icon="openmoji:filter" />,
+    title: "Product Search & Filtering",
+  },
+  {
+    icon: (
+      <Icon
+        icon="fluent-mdl2:data-management-settings"
+        style={{ color: "#f77fbe" }}
+      />
+    ),
+    title: "Inventory Management",
+  },
+  {
+    icon: <Icon icon="flat-color-icons:data-recovery" />,
+    title: "Data Management",
+  },
+  {
+    icon: <Icon icon="vscode-icons:file-type-search-result" />,
+    title: "Search & Filtering",
+  },
+  {
+    icon: <Icon icon="noto-v1:shopping-cart" />,
+    title: "Shopping Cart",
+  },
+  {
+    icon: (
+      <Icon icon="fluent:payment-16-regular" style={{ color: "#93a34d" }} />
+    ),
+    title: "Payment Processing",
+  },
+  {
+    icon: <Icon icon="icon-park:transaction-order" />,
+    title: "Order Tracking",
+  },
+  {
+    icon: <Icon icon="noto:delivery-truck" />,
+    title: "Shipping & Delivery",
   },
 ];

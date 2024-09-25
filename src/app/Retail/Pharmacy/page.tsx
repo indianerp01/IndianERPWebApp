@@ -10,9 +10,15 @@ const Pharmacy = () => {
   return (
     <div className=" container">
   <Header 
-  title="Retail Softwares" 
-  description="Manage all your retail operations in a centralized system with Indian Retail Software. From purchasing to inventory management to selling, stay on top of everything & increase your sales by attracting more customers." 
+  title="Pahrmacy Software" 
+  description="Finding the best pharmacy software in India requires defining your specific needs and researching reputable providers. Consider features, pricing, implementation, and support before making a decision." 
   link="/Contact" 
+  img1= "/HeropagesImages/img1.svg"
+  img2= "/HeropagesImages/img2.svg"
+  img3= "/HeropagesImages/img3.svg"
+  heading1="Prescription Management"
+  heading2="Refill Reminders"
+  heading3="Reporting & Analytics"
 />
       <ShowCase />
       <ProductsFeatures />

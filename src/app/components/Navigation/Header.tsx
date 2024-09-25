@@ -132,7 +132,7 @@ const Header = () => {
                 dropDownT3="Billing Software"
                 dropDownT4="GST Software"
                 dropDownT5="Invoice Software"
-                dropDownT6="E-Invoicing Software"
+                dropDownT6="Ecommerce App Softwares"
                 dropDownT7="Web-Apps Software"
                 titleHREF="/Others"
                 href1="/Others/ECOD"
@@ -140,7 +140,7 @@ const Header = () => {
                 href3="/Others/Billing"
                 href4="/Others/GST"
                 href5="/Others/Invoice"
-                href6="/Others/E_Invoice"
+                href6="/Others/E_AppSoftwares"
                 href7="/Others/WebApp"
               />
               <Link

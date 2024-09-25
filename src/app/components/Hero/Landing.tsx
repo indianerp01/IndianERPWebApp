@@ -32,10 +32,10 @@ const Landing = () => {
         </div>
 
         {/* Software Solution Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
-          <MiniTech
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 ">
+          <MiniTech 
             title={"Retailization"}
-            icon={<Icon icon="twemoji:department-store" className="text-7xl px-3 py-2"  />}
+            icon={<Icon icon="twemoji:department-store" className="text-7xl px-3 py-2 "   />}
           />
           <MiniTech
             title="Manufacture"

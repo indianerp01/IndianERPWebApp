@@ -9,6 +9,12 @@ const SuperMarket = () => {
   title="Super Market Software" 
   description="Take your pharmacy to the next level with Indian Pharmacy Software. Streamline your operations, boost customer loyalty, and increase profitability with features like automated invoice sending, prescription reminders, and real-time inventory management." 
   link="/Contact" 
+  img1= "/HeropagesImages/img4.svg"
+  img2= "/HeropagesImages/img5.svg"
+  img3= "/HeropagesImages/img6.svg"
+  heading1="Online Ordering and Delivery"
+  heading2="Warehouse Management"
+  heading3="Financial Management"
  /> 
     <ShowCase/>
     <SuperMarketFeatures/>
