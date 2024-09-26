@@ -3,6 +3,7 @@ import Landing from "./components/Hero/Landing";
 import ShowCase from "./components/Showcase/ShowCase";
 import SoftwareComp from "./components/Software/SoftwareComp";
 import Ecod from "./components/Ecod/Ecod";
+import SwiperComp from "./components/Swiper/SwiperComp";
 
 export default function Home() {
   return (
@@ -96,6 +97,8 @@ export default function Home() {
         name6="Web-App Softwares"
         name7="Ecommerce App Softwares"
       />
+
+      <SwiperComp />
     </main>
   );
 }
