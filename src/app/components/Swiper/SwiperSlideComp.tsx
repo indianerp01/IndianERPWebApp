@@ -9,7 +9,7 @@ const SwiperSlideComp = ({ imgLink, title, desc }: any) => {
           <img
             src={imgLink}
             alt=""
-            className="h-auto object-contain rounded-tr-3xl rounded-bl-3xl"
+            className="h-auto object-contain rounded-tr-3xl rounded-bl-3xl my-1"
           />
         </div>
 
