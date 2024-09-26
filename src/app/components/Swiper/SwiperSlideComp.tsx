@@ -1,5 +1,3 @@
-import { SwiperProps } from "swiper/react";
-
 const SwiperSlideComp = ({ imgLink, title, desc }: any) => {
   return (
     <div className="h-[500px] border rounded-sm flex items-center justify-center ">
