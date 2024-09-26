@@ -28,7 +28,7 @@ const Header = () => {
               <HeaderLogo />
             </span>
             {/* Desktop Menu */}
-            <ul className="hidden md:flex items-center justify-center gap-6">
+            <ul className="hidden lg:flex items-center justify-center gap-6">
               <Link
                 href="/"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
@@ -107,7 +107,7 @@ const Header = () => {
                 href6="/ERP/HotelERP"
                 href7="/ERP/InventoryManagement"
               />
-               <DropDown
+              {/* <DropDown
                 title="Mobile Apps"
                 dropDownT1="E-Retail App"
                 dropDownT2="E-Order App"
@@ -124,7 +124,7 @@ const Header = () => {
                 href5="/MobileApps/SFA-Xpert"
                 href6="/MobileApps/GPS-Tracking"
                 href7="/MobileApps/Ecommerce"
-              /> 
+              /> */}
               <DropDown
                 title="Others"
                 dropDownT1="ECOD Secure"
@@ -147,32 +147,33 @@ const Header = () => {
                 href="/OnlineSoftware"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer  transition-all ease-linear duration-200"
               >
-                Online Software
+                OnlineS/W
               </Link>
               <Link
                 href="/Contact"
                 className="text-neutral-500 hover:text-neutral-900 cursor-pointer  transition-all ease-linear duration-200"
               >
-                Contact Us
+                Contact
               </Link>
             </ul>
           </nav>
-          <div className="max-sm:hidden  max-md:hidden">
+          <div className="max-sm:hidden  max-lg:hidden">
             <ul>
               <DemoBtn />
             </ul>
           </div>
 
           {/* Mobile Menu Toggle Button */}
-          <button className="md:hidden text-3xl" onClick={toggleMobileMenu}>
+          <button className="lg:hidden text-3xl" onClick={toggleMobileMenu}>
             <IoMenu />
           </button>
         </div>
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 left-0 w-full h-screen bg-white z-50 transition-all ease-in-out duration-300 ${showMobileMenu ? "translate-x-0" : "-translate-x-full"
-            }`}
+          className={`fixed top-0 left-0 w-full h-screen bg-white z-50 transition-all ease-in-out duration-300 ${
+            showMobileMenu ? "translate-x-0" : "-translate-x-full"
+          }`}
         >
           {/* Close Button */}
           <button
@@ -182,44 +183,44 @@ const Header = () => {
             <IoMdClose />
           </button>
 
-          <ul className="flex flex-col p-4 gap-4  m-20 items-center  text-lg">
-            <li>
+          <ul className="flex flex-col p-4 gap-4 m-20 items-center text-lg h-screen">
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 uppercase"
               >
                 Home
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/Retail"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 "
               >
                 Retail
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/Distribution"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 "
               >
                 Distribution
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/Manufacturing"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 "
               >
                 Manufacturing
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/ERP"
                 onClick={handleLinkClick}
@@ -228,7 +229,7 @@ const Header = () => {
                 ERP
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/MobileApps"
                 onClick={handleLinkClick}
@@ -236,35 +237,35 @@ const Header = () => {
               >
                 Mobile Apps
               </Link>
-            </li>
-            <li>
+            </li> */}
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/Others"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 bg-stone-100 px-3 py-1 rounded-sm"
               >
                 Others
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/OnlineSoftware"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 bg-stone-100 px-3 py-1 rounded-sm"
               >
                 Online Software
               </Link>
             </li>
-            <li>
+            <li className="bg-stone-100 w-full text-center px-3 py-2 rounded-sm ring-1 ring-stone-300">
               <Link
                 href="/Contact"
                 onClick={handleLinkClick}
-                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200"
+                className="text-neutral-500 hover:text-neutral-900 cursor-pointer transition-all ease-linear duration-200 bg-stone-100 px-3 py-1 rounded-sm"
               >
                 Contact Us
               </Link>
             </li>
-            <div>
+            <div className="xl:hidden flex">
               <ul className="m-3 ">
                 <DemoBtn />
               </ul>

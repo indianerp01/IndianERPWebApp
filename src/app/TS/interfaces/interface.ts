@@ -39,7 +39,7 @@ export interface FeatureItemProp {
   icon: JSX.Element;
 }
 
-export interface HeroProps { 
+export interface HeroProps {
   title: string;
   description: string;
   buttonText: string;
@@ -47,7 +47,7 @@ export interface HeroProps {
   imageSrc: string;
 }
 
-export interface HeroHeader { 
+export interface HeroHeader {
   title: string;
   description: string;
   link: string;
@@ -57,4 +57,10 @@ export interface HeroHeader {
   heading1: string;
   heading2: string;
   heading3: string;
-  }
+}
+
+export interface SwiperProps {
+  title: string;
+  imgLink: string;
+  desc: string;
+}

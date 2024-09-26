@@ -1,13 +1,15 @@
-const SwiperSlideComp = () => {
+import { SwiperProps } from "swiper/react";
+
+const SwiperSlideComp = ({ imgLink, title, desc }: any) => {
   return (
     <div className="h-[500px] border rounded-sm flex items-center justify-center ">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-10 p-5 md:mb-5 mb-20">
         {/* Right */}
         <div className="h-full w-full md:pt-0 pt-16">
           <img
-            src="https://images.unsplash.com/photo-1720048171731-15b3d9d5473f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={imgLink}
             alt=""
-            className="h-auto object-cover rounded-tr-3xl rounded-bl-3xl"
+            className="h-auto object-contain rounded-tr-3xl rounded-bl-3xl"
           />
         </div>
 
@@ -18,14 +20,10 @@ const SwiperSlideComp = () => {
           </div>
           <div>
             <h1 className="sm:text-3xl text-lg font-semibold text-start">
-              100% Free Invoice software fir your business
+              {title}
             </h1>
           </div>
-          <div className="text-base text-start line-clamp-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            esse cumque labore rerum. Sequi eaque neque, nemo voluptatem in
-            dignissimos obcaecati magnam esse non aspernatur laborum et
-          </div>
+          <div className="text-base text-start line-clamp-3">{desc}</div>
         </div>
       </div>
     </div>

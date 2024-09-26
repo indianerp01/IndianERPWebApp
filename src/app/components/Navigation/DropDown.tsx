@@ -24,7 +24,9 @@ const DropDown = ({
     <div>
       <div className="text-neutral-500 group relative hover:text-neutral-900 cursor-pointer  transition-all ease-linear duration-200">
         <div className="flex items-center justify-center group/icon ">
-          <Link href={titleHREF}>{title}</Link>{" "}
+          <Link className="line-clamp-1 truncate" href={titleHREF}>
+            {title}
+          </Link>{" "}
           <span>
             <RiArrowDropDownLine className="group-hover/icon:rotate-180 w-4 h-4 transition-transform ease-linear duration-200" />
           </span>
