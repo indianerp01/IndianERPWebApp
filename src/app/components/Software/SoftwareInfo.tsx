@@ -7,7 +7,7 @@ const SoftwareInfo = ({ src, name }: SoftwareInfoProp) => {
         <img
           src={src}
           alt=""
-          className="w-full h-[300px] object-contain object-center grayscale-[20%]"
+          className="w-full h-[300px] object-contain object-center "
         />
       </div>
       <button className="bg-gray-100 hover:bg-gray-200 transition-all ease-linear duration-300 px-4 py-2 rounded-sm text-center">
