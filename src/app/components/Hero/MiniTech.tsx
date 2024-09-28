@@ -2,7 +2,7 @@ import { MiniTechProp } from "@/app/TS/interfaces/interface";
 
 const MiniTech = ({ title, icon }: MiniTechProp) => {
   return (
-    <div className="border p-5 rounded-md hover:bg-gray-300 transition-all ease-linear duration-300 cursor-pointer  bg-gray-200 bg-opacity-10">
+    <div className="border p-5 rounded-md hover:bg-stone-50 transition-all ease-linear duration-300 cursor-pointer  bg-gray-200 bg-opacity-10">
       <div className="flex items-center justify-center flex-col gap-3 ">
         <div className="w-full flex items-center justify-center bg-gray-100 rounded-sm">
           {icon}

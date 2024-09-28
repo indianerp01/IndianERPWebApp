@@ -129,7 +129,12 @@ const Footer = () => {
                       Contact Details
                     </h3>
                     <h4 className="mt-6 space-y-2">Email id :</h4>
-                    <p className="overflow-hidden">indiancomptech@gmail.com</p>
+                    <p
+                      className="overflow-hidden truncate"
+                      title="indiancomptech@gmail.com"
+                    >
+                      indiancomptech@gmail.com
+                    </p>
 
                     <h4 className="mt-6 space-y-2">Contact Number :</h4>
                     <p>

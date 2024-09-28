@@ -34,43 +34,43 @@ const DropDown = ({
         <div className="absolute hidden top-[18px] group-hover:flex flex-col w-max  bg-gray-100 px-3 mt-[4px] transition-all duration-300 ease-linear py-3 rounded border ">
           <Link
             href={href1 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT1}
           </Link>
           <Link
             href={href2 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT2}
           </Link>
           <Link
             href={href3 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT3}
           </Link>
           <Link
             href={href4 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT4}
           </Link>
           <Link
             href={href5 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT5}
           </Link>
           <Link
             href={href6 as string}
-            className="bg-white px-2 py-1 rounded mb-2 hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded mb-2 hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT6}
           </Link>
           <Link
             href={href7 as string}
-            className="bg-white px-2 py-1 rounded hover:bg-gray-200 transition-all ease-linear duration-200 "
+            className="bg-white px-2 py-1 rounded  hover:ring-1 ring-gray-300 hover:bg-gray-200 transition-all ease-linear duration-200 "
           >
             {dropDownT7}
           </Link>
