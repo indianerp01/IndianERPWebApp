@@ -1,6 +1,6 @@
 const Ecod = () => {
   return (
-    <>
+    <section>
       <div className="container mx-auto px-4 py-20">
         <div className="flex items-center justify-center">
           <h1 className="text-[42px] font-bold text-center max-w-5xl text-neutral-700 mb-8">
@@ -79,7 +79,7 @@ const Ecod = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 export default Ecod;
