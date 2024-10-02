@@ -10,6 +10,7 @@ export default function Home() {
     <main className="container ">
       {/* <Hero/> */}
       <Landing />
+      <SwiperComp />
       <Ecod />
       <ShowCase />
       <Title title="Retail Softwares" />
@@ -98,7 +99,7 @@ export default function Home() {
         name7="Ecommerce App Softwares"
       />
 
-      <SwiperComp />
+      
     </main>
   );
 }

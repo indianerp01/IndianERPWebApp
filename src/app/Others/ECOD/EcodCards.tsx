@@ -1,3 +1,6 @@
+import Image from "next/image";
+import React from "react";
+
 const Ecod = () => {
     return (
       <>
@@ -11,7 +14,7 @@ const Ecod = () => {
             {/*Card 1 */}
   
             <div className="border border-neutral-200 p-6">
-              <img
+              <Image
                 src="/ERP/ERP-4.svg "
                 alt=""
                 className=" rounded-sm mb-4 w-full h-[300px] object-contain object-center border "
@@ -26,7 +29,7 @@ const Ecod = () => {
             {/*Card 2 */}
   
             <div className="border border-neutral-200 p-6">
-              <img
+              <Image
                 src="/images/Ecod.svg"
                 alt=""
                 className="rounded-sm mb-4 w-full h-[300px] object-contain object-center border"
@@ -42,7 +45,7 @@ const Ecod = () => {
             {/*Card 3 */}
   
             <div className="border border-neutral-200  p-6">
-              <img
+              <Image
                 src="/images/salesman.svg"
                 alt=""
                 className="rounded-sm mb-4 w-full h-[300px] object-contain object-center border"

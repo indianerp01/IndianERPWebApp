@@ -11,7 +11,7 @@ const SwiperComp = () => {
     clickable: true,
   };
   return (
-    <div className="mb-10">
+    <div className="mt-10 mb-10">
       <Swiper
         pagination={pagination}
         modules={[Pagination]}

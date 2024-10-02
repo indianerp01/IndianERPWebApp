@@ -1,3 +1,6 @@
+import Image from "next/image";
+import React from "react";
+
 const Ecod = () => {
   return (
     <>
@@ -25,7 +28,7 @@ const Ecod = () => {
           {/*Card 1 */}
 
           <div className="border border-neutral-200 p-6">
-            <img
+            <Image
               src="/images/Indiapanel.svg "
               alt=""
               className=" rounded-sm mb-4 w-full h-[300px] object-contain object-center border"
@@ -42,7 +45,7 @@ const Ecod = () => {
           {/*Card 2 */}
 
           <div className="border border-neutral-200 p-6">
-            <img
+            <Image
               src="/images/ad.svg"
               alt=""
               className="rounded-sm mb-4 w-full h-[300px] object-contain object-center border"
@@ -51,7 +54,7 @@ const Ecod = () => {
               Advertisement on ICT
             </h2>
             <p className="text-base my-4 font-light">
-              Advertise to India's top 2.5 Lakh+ Retailers & 1 Lakh+
+              Advertise to India&apos;s top 2.5 Lakh+ Retailers & 1 Lakh+
               Distributors on Indian ERP Screen
             </p>
             <button className="w-full bg-gray-100 hover:bg-gray-200 text-black transition-all ease-linear duration-300 hover:text-black py-2 px-4 rounded focus:outline-none text-md focus:shadow-outline">
@@ -62,7 +65,7 @@ const Ecod = () => {
           {/*Card 3 */}
 
           <div className="border border-neutral-200  p-6">
-            <img
+            <Image
               src="/images/salesman.svg"
               alt=""
               className="rounded-sm mb-4 w-full h-[300px] object-contain object-center border"

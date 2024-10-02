@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 const SwiperSlideComp = () => {
   return (
     <div className="h-[500px] border rounded-sm flex items-center justify-center ">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-10 p-5 md:mb-5 mb-20">
         {/* Right */}
         <div className="h-full w-full md:pt-0 pt-16">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1720048171731-15b3d9d5473f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="h-auto object-cover rounded-tr-3xl rounded-bl-3xl"

@@ -1,10 +1,11 @@
 import { SoftwareInfoProp } from "@/app/TS/interfaces/interface";
+import Image from "next/image";
 
 const SoftwareInfo = ({ src, name }: SoftwareInfoProp) => {
   return (
     <div className="flex flex-col gap-4 border p-3 ">
       <div className="border rounded-md ">
-        <img
+        <Image
           src={src}
           alt=""
           className="w-full h-[300px] object-contain object-center grayscale-[20%]"

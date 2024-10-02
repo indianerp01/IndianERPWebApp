@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -67,7 +68,7 @@ const FeaturesList = () => {
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0 ">
-              <img
+              <Image
                 className="w-full h-[350px] object-fit-cover grayscale-[20%] border-2 rounded-lg "
                 src={feature.image}
                 alt={feature.title}

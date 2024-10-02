@@ -1,4 +1,5 @@
 import { HeroHeader } from "@/app/TS/interfaces/interface";
+import Image from "next/image";
 import Link from "next/link";
 
 const Header = ({
@@ -40,7 +41,7 @@ const Header = ({
           </h1> */}
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3  ">
             <div className="flex flex-col items-center">
-              <img
+              <Image
                 src={img1}
                 alt="Image 1"
                 className="rounded-md  w-[250px] h-[230px] border  object-fit-cover "
@@ -49,7 +50,7 @@ const Header = ({
             </div>
 
             <div className="flex flex-col items-center">
-              <img
+              <Image
                 src={img2}
                 alt="Image 2"
                 className="rounded-md  w-[250px] h-[230px] border object-fit-cover"
@@ -58,7 +59,7 @@ const Header = ({
             </div>
 
             <div className="flex flex-col items-center">
-              <img
+              <Image
                 src={img3}
                 alt="Image 3"
                 className="rounded-md  w-[250px] h-[230px] border object-fit-cover"
